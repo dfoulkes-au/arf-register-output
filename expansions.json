@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2a9d3adb-1314-4336-9927-37038bf24354",
+  "id" : "0b97261b-e888-4479-96a1-f75f2c65ffaa",
   "meta" : {
-    "lastUpdated" : "2024-05-15T12:58:39.750+10:00"
+    "lastUpdated" : "2024-05-15T15:51:17.822+10:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "ARFDiagnosisCodeVS",
       "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
       "status" : "draft",
-      "date" : "2024-05-15T12:58:39+10:00",
+      "date" : "2024-05-15T15:51:17+10:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4e02d830-5ff8-46f4-a0cd-73198c6deb80",
-        "timestamp" : "2024-05-15T12:59:15+10:00",
+        "identifier" : "urn:uuid:200b57b0-3f35-4a5b-ab95-57492e6e2692",
+        "timestamp" : "2024-05-15T15:51:44+10:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -67,17 +67,17 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Feb 2024</p><p>This value set contains 0 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
       "version" : "0.1.1",
       "name" : "ARFMedicationCodeVS",
       "title" : "Medication Codes for Acute Rheumatic Fever",
       "status" : "draft",
-      "date" : "2024-05-15T12:58:39+10:00",
+      "date" : "2024-05-15T15:51:17+10:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b967715e-9ec0-4566-a883-0f7c625aa71c",
-        "timestamp" : "2024-05-15T12:59:15+10:00",
+        "identifier" : "urn:uuid:bbe04a03-f842-44e9-9de7-f450d61a7958",
+        "timestamp" : "2024-05-15T15:51:44+10:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -91,6 +91,18 @@
         {
           "name" : "excludeNested",
           "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
         }]
       }
     }
@@ -108,10 +120,10 @@
       "name" : "ARFSeverityVS",
       "title" : "Acute Rheumatic Fever Condition Severity",
       "status" : "draft",
-      "date" : "2024-05-15T12:58:39+10:00",
+      "date" : "2024-05-15T15:51:17+10:00",
       "expansion" : {
-        "identifier" : "urn:uuid:510ca24c-892f-46fa-863b-7f8459726f72",
-        "timestamp" : "2024-05-15T12:59:15+10:00",
+        "identifier" : "urn:uuid:e49eddd5-c218-4bf3-a242-9e777407efa2",
+        "timestamp" : "2024-05-15T15:51:44+10:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{

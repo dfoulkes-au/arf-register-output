@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2a9d3adb-1314-4336-9927-37038bf24354"/>
+  <id value="0b97261b-e888-4479-96a1-f75f2c65ffaa"/>
   <meta>
-    <lastUpdated value="2024-05-15T12:58:39.750+10:00"/>
+    <lastUpdated value="2024-05-15T15:51:17.822+10:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -51,10 +51,10 @@
         <name value="ARFDiagnosisCodeVS"/>
         <title value="Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"/>
         <status value="draft"/>
-        <date value="2024-05-15T12:58:39+10:00"/>
+        <date value="2024-05-15T15:51:17+10:00"/>
         <expansion>
-          <identifier value="urn:uuid:4e02d830-5ff8-46f4-a0cd-73198c6deb80"/>
-          <timestamp value="2024-05-15T12:59:15+10:00"/>
+          <identifier value="urn:uuid:200b57b0-3f35-4a5b-ab95-57492e6e2692"/>
+          <timestamp value="2024-05-15T15:51:44+10:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -102,6 +102,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
             <p>This value set contains 0 concepts.</p>
             <table class="codes">
               <tr>
@@ -123,10 +124,10 @@
         <name value="ARFMedicationCodeVS"/>
         <title value="Medication Codes for Acute Rheumatic Fever"/>
         <status value="draft"/>
-        <date value="2024-05-15T12:58:39+10:00"/>
+        <date value="2024-05-15T15:51:17+10:00"/>
         <expansion>
-          <identifier value="urn:uuid:b967715e-9ec0-4566-a883-0f7c625aa71c"/>
-          <timestamp value="2024-05-15T12:59:15+10:00"/>
+          <identifier value="urn:uuid:bbe04a03-f842-44e9-9de7-f450d61a7958"/>
+          <timestamp value="2024-05-15T15:51:44+10:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -140,6 +141,18 @@
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
           </parameter>
         </expansion>
       </ValueSet>
@@ -214,10 +227,10 @@
         <name value="ARFSeverityVS"/>
         <title value="Acute Rheumatic Fever Condition Severity"/>
         <status value="draft"/>
-        <date value="2024-05-15T12:58:39+10:00"/>
+        <date value="2024-05-15T15:51:17+10:00"/>
         <expansion>
-          <identifier value="urn:uuid:510ca24c-892f-46fa-863b-7f8459726f72"/>
-          <timestamp value="2024-05-15T12:59:15+10:00"/>
+          <identifier value="urn:uuid:e49eddd5-c218-4bf3-a242-9e777407efa2"/>
+          <timestamp value="2024-05-15T15:51:44+10:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>

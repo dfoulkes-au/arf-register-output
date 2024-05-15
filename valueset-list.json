@@ -15,7 +15,8 @@
       "status" : "draft",
       "name" : "ARFMedicationCodeVS",
       "title" : "Medication Codes for Acute Rheumatic Fever",
-      "description" : "Medication Codes for Acute Rheumatic Fever"
+      "description" : "Medication Codes for Acute Rheumatic Fever",
+      "systems" : ["http://snomed.info/sct"]
     },
     {
       "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",

@@ -1,4 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs,0.1.1,draft,,ARFDiagnosisCodeVS,Acute Rheumatic Fever and Rheumatic Heart Disease Conditions,"Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",,"SCT"
-http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs,0.1.1,draft,,ARFMedicationCodeVS,Medication Codes for Acute Rheumatic Fever,"Medication Codes for Acute Rheumatic Fever",,
+http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs,0.1.1,draft,,ARFMedicationCodeVS,Medication Codes for Acute Rheumatic Fever,"Medication Codes for Acute Rheumatic Fever",,"SCT"
 http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs,0.1.1,draft,,ARFSeverityVS,Acute Rheumatic Fever Condition Severity,"Acute Rheumatic Fever Condition Severity",,"SCT"

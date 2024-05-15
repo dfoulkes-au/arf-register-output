@@ -118,7 +118,7 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-arf-severity-vs.html" : "Acute Rheumatic Fever Condition Severity",
+      "ValueSet-arf-diagnosis-vs.html" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
       "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
       "https://tx.ontoserver.csiro.au/fhir/ValueSet/clinical-specialty-1" : "Clinical Specialty",
       "https://tx.ontoserver.csiro.au/fhir/ValueSet/practitioner-role-1" : "Practitioner Role",
@@ -135,8 +135,8 @@
       "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
       "https://tx.ontoserver.csiro.au/fhir/ValueSet/medicine-substitution-reason-1" : "Medicine Substitution Reason",
       "https://tx.ontoserver.csiro.au/fhir/ValueSet/reason-for-request-1" : "Reason for Request",
-      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "ValueSet-arf-diagnosis-vs.html" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"
+      "ValueSet-arf-medication-code-vs.html" : "Medication Codes for Acute Rheumatic Fever",
+      "ValueSet-arf-severity-vs.html" : "Acute Rheumatic Fever Condition Severity"
     },
     {
       "url" : "http://terminology.hl7.org.au/CodeSystem/contact-purpose",
