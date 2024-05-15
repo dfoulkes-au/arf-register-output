@@ -168,13 +168,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
       "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
       "StructureDefinition-ARFPatient.html" : "ARFPatient",
       "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
-      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole"
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -219,8 +219,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
@@ -399,8 +399,8 @@
       "sources" : ["2.16.840.1.113883.2.3.4.2.4.7"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://terminology.hl7.org.au/ValueSet/pbs-item",
@@ -414,8 +414,8 @@
       "sources" : ["2.16.840.1.113883.2.3.4.2.4.8"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://terminology.hl7.org.au/ValueSet/v2-0360-extended",
@@ -462,8 +462,8 @@
       "sources" : ["2.16.840.1.113883.1.11.19885"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1",
@@ -477,8 +477,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10003"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1",

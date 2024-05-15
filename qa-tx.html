@@ -22,76 +22,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1519
 content-type:application/fhir+json
-date:Wed, 15 May 2024 00:53:42 GMT
+date:Wed, 15 May 2024 02:58:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:139-396099
+x-request-id:139-399936
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.6.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-05-15T00:53:42.154Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.6.3","releaseDate" : "2024-05-09T22:19:30.244Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
-
-</pre><hr/>
-<a name="l2"> </a><h3>2</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"195528001"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs--0","version":"0.1.1","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"195528001","display":"Acute rheumatic fever"},{"code":"38933006","display":"Recurrent rheumatic fever"},{"code":"302471000210100","display":"Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever"},{"code":"299171000210109","display":"History of acute rheumatic fever without heart disease"}]}]}}},{"name":"cache-id","valueId":"1270be17-0d51-42cf-96c9-3a8053d44221"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:350
-content-type:application/fhir+json
-date:Wed, 15 May 2024 00:54:04 GMT
-last-modified:Wed, 15 May 2024 00:54:04 GMT
-pragma:no-cache
-server:nginx
-x-request-id:139-396100
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "195528001"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Acute rheumatic fever"}]}
-
-</pre><hr/>
-<a name="l3"> </a><h3>3</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"195528001","display":"Acute rheumatic fever"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"arf-diagnosis-vs","text":{"status":"generated","div":"<div>!-- Narrative removed --></div>"},"url":"http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs","version":"0.1.1","name":"ARFDiagnosisCodeVS","title":"Acute Rheumatic Fever and Rheumatic Heart Disease Conditions","status":"draft","date":"2024-05-15T10:53:52+10:00","publisher":"Northern Australia Regional Digital Health Collaborative","contact":[{"name":"Northern Australia Regional Digital Health Collaborative","telecom":[{"system":"url","value":"https://nardhc.org"}]}],"description":"Acute Rheumatic Fever and Rheumatic Heart Disease Conditions","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"195528001","display":"Acute rheumatic fever"},{"code":"38933006","display":"Recurrent rheumatic fever"},{"code":"302471000210100","display":"Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever"},{"code":"299171000210109","display":"History of acute rheumatic fever without heart disease"}]}]}}},{"name":"cache-id","valueId":"1270be17-0d51-42cf-96c9-3a8053d44221"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:350
-content-type:application/fhir+json
-date:Wed, 15 May 2024 00:54:04 GMT
-last-modified:Wed, 15 May 2024 00:54:04 GMT
-pragma:no-cache
-server:nginx
-x-request-id:139-396101
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "195528001"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Acute rheumatic fever"}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.6.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-05-15T02:58:27.640Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.6.3","releaseDate" : "2024-05-09T22:19:30.244Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 
 --- 1 -----------------
 Request: 
@@ -113,70 +49,10 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1519
 content-type:application/fhir+json
-date:Wed, 15 May 2024 00:53:42 GMT
+date:Wed, 15 May 2024 02:58:27 GMT
 pragma:no-cache
 server:nginx
-x-request-id:139-396099
+x-request-id:139-399936
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.6.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-05-15T00:53:42.154Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.6.3","releaseDate" : "2024-05-09T22:19:30.244Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
-
---- 2 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"195528001"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs--0","version":"0.1.1","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"195528001","display":"Acute rheumatic fever"},{"code":"38933006","display":"Recurrent rheumatic fever"},{"code":"302471000210100","display":"Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever"},{"code":"299171000210109","display":"History of acute rheumatic fever without heart disease"}]}]}}},{"name":"cache-id","valueId":"1270be17-0d51-42cf-96c9-3a8053d44221"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:350
-content-type:application/fhir+json
-date:Wed, 15 May 2024 00:54:04 GMT
-last-modified:Wed, 15 May 2024 00:54:04 GMT
-pragma:no-cache
-server:nginx
-x-request-id:139-396100
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "195528001"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Acute rheumatic fever"}]}
-
---- 3 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept-Charset: UTF-8
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"195528001","display":"Acute rheumatic fever"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"arf-diagnosis-vs","text":{"status":"generated","div":"<div>!-- Narrative removed --></div>"},"url":"http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs","version":"0.1.1","name":"ARFDiagnosisCodeVS","title":"Acute Rheumatic Fever and Rheumatic Heart Disease Conditions","status":"draft","date":"2024-05-15T10:53:52+10:00","publisher":"Northern Australia Regional Digital Health Collaborative","contact":[{"name":"Northern Australia Regional Digital Health Collaborative","telecom":[{"system":"url","value":"https://nardhc.org"}]}],"description":"Acute Rheumatic Fever and Rheumatic Heart Disease Conditions","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"195528001","display":"Acute rheumatic fever"},{"code":"38933006","display":"Recurrent rheumatic fever"},{"code":"302471000210100","display":"Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever"},{"code":"299171000210109","display":"History of acute rheumatic fever without heart disease"}]}]}}},{"name":"cache-id","valueId":"1270be17-0d51-42cf-96c9-3a8053d44221"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:350
-content-type:application/fhir+json
-date:Wed, 15 May 2024 00:54:04 GMT
-last-modified:Wed, 15 May 2024 00:54:04 GMT
-pragma:no-cache
-server:nginx
-x-request-id:139-396101
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "195528001"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Acute rheumatic fever"}]}
+{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/metadata","version" : "4.0.1-3.6.3","name" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2024-05-15T02:58:27.640Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "Reference Server","version" : "3.6.3","releaseDate" : "2024-05-09T22:19:30.244Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
 </pre></head></html>

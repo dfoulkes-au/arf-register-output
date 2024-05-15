@@ -8,9 +8,9 @@
   "url" : "http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister",
   "version" : "0.1.1",
   "name" : "ARFRegisterIG",
-  "title" : "Implementation Guide for ARF/RHD Register - AU",
+  "title" : "Implementation Guide (Draft) for ARF/RHD Register - AU",
   "status" : "draft",
-  "date" : "2024-05-15T10:53:52+10:00",
+  "date" : "2024-05-15T12:58:39+10:00",
   "publisher" : "Northern Australia Regional Digital Health Collaborative",
   "contact" : [{
     "name" : "Northern Australia Regional Digital Health Collaborative",

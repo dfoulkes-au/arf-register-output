@@ -3,27 +3,27 @@ ARFRegisterIG : Validation Results
 
 err = 4, warn = 18, info = 1
 IG Publisher Version: 1.6.7
-Generated Wed May 15 10:55:17 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
+Generated Wed May 15 12:59:59 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 1 / 4 / 0
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\Condition-JamesPondCondition : 2 / 4 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 2 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\Patient-JamesPondPatient : 2 / 0 / 2
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 1 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 1 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 1 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFOrganisation : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFPatient : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFPractitioner : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\StructureDefinition-ARFPractitionerRole : 0 / 0 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\ValueSet-arf-diagnosis-vs : 0 / 3 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\ValueSet-arf-medication-code-vs : 0 / 1 / 1
- C:\Dev\fsh\ARFRegisterIG\fsh-generated\resources\ValueSet-arf-severity-vs : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition : 2 / 4 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 2 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient : 2 / 0 / 2
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFOrganisation : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPatient : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPractitioner : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPractitionerRole : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-diagnosis-vs : 0 / 3 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-medication-code-vs : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-severity-vs : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: C:\Dev\fsh\ARFRegisterIG\output\Patient-JamesPondPatient.html#/html/body/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 167, column 677: The link 'RemoteClinic' for "RemoteClinic" cannot be resolved
+ERROR: C:\Dev\fsh\arf-register-fsh\output\Patient-JamesPondPatient.html#/html/body/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 167, column 677: The link 'RemoteClinic' for "RemoteClinic" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
