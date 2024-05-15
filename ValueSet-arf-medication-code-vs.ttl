@@ -1,0 +1,32 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "arf-medication-code-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "ARFMedicationCodeVS"] ; # 
+  fhir:title [ fhir:v "Medication Codes for Acute Rheumatic Fever"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-05-15T10:53:52+10:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Northern Australia Regional Digital Health Collaborative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Northern Australia Regional Digital Health Collaborative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://nardhc.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Medication Codes for Acute Rheumatic Fever"] . # 
+
+# -------------------------------------------------------------------------------------
+

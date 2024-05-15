@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/Organization/VeryRemoteClinic> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "VeryRemoteClinic"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation"^^xsd:anyURI ;
+       fhir:link <http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"VeryRemoteClinic\"> </a><a name=\"hcVeryRemoteClinic\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceOrganization &quot;VeryRemoteClinic&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFOrganisation.html\">ARFOrganisation</a></p></div><p><b>identifier</b>: National Organisation Identifier/8003621566684455 (use: official)</p><p><b>type</b>: Outpatient environment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#440655000)</span></p><p><b>name</b>: Very Remote Health Clinic</p><p><b>telecom</b>: <a href=\"tel:+61712345678\">+61 7 12345678</a></p><p><b>address</b>: 2342 Main Road Coen QLD </p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org.au/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "NOI" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://ns.electronichealth.net.au/id/hi/hpio/1.0"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "8003621566684455" ]
+  ] ) ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       a sct:440655000 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "440655000" ] ;
+       fhir:display [ fhir:v "Outpatient environment" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Very Remote Health Clinic"] ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+61 7 12345678" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "2342 Main Road" ] ) ;
+     fhir:city [ fhir:v "Coen" ] ;
+     fhir:state [ fhir:v "QLD" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

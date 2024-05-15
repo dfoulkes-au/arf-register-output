@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="823a986a-254e-4f7a-a49a-db21bfd1e8e5"/>
+  <meta>
+    <lastUpdated value="2024-05-15T10:53:52.152+10:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set contains 2 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-195528001"> </a>  
+                  <a href="http://snomed.info/id/195528001">195528001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute rheumatic fever</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-38933006"> </a>  
+                  <a href="http://snomed.info/id/38933006">38933006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Recurrent rheumatic fever</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs"/>
+        <version value="0.1.1"/>
+        <name value="ARFDiagnosisCodeVS"/>
+        <title value="Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"/>
+        <status value="draft"/>
+        <date value="2024-05-15T10:53:52+10:00"/>
+        <expansion>
+          <identifier value="urn:uuid:65f3b5da-67a4-4431-8a57-83ac83156ba1"/>
+          <timestamp value="2024-05-15T10:54:29+10:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="195528001"/>
+            <display value="Acute rheumatic fever"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="38933006"/>
+            <display value="Recurrent rheumatic fever"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs"/>
+        <version value="0.1.1"/>
+        <name value="ARFMedicationCodeVS"/>
+        <title value="Medication Codes for Acute Rheumatic Fever"/>
+        <status value="draft"/>
+        <date value="2024-05-15T10:53:52+10:00"/>
+        <expansion>
+          <identifier value="urn:uuid:4936801b-5e9a-4e47-94a1-02642465f907"/>
+          <timestamp value="2024-05-15T10:54:29+10:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set contains 5 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260413007"> </a>  
+                  <a href="http://snomed.info/id/260413007">260413007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255604002"> </a>  
+                  <a href="http://snomed.info/id/255604002">255604002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mild</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-6736007"> </a>  
+                  <a href="http://snomed.info/id/6736007">6736007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Moderate</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-24484000"> </a>  
+                  <a href="http://snomed.info/id/24484000">24484000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Severe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-261665006"> </a>  
+                  <a href="http://snomed.info/id/261665006">261665006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs"/>
+        <version value="0.1.1"/>
+        <name value="ARFSeverityVS"/>
+        <title value="Acute Rheumatic Fever Condition Severity"/>
+        <status value="draft"/>
+        <date value="2024-05-15T10:53:52+10:00"/>
+        <expansion>
+          <identifier value="urn:uuid:b7789297-8201-44dd-9976-5e0147ac3565"/>
+          <timestamp value="2024-05-15T10:54:29+10:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260413007"/>
+            <display value="None"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255604002"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6736007"/>
+            <display value="Moderate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="24484000"/>
+            <display value="Severe"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="261665006"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

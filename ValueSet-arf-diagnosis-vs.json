@@ -1,0 +1,44 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "arf-diagnosis-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/195528001\">195528001</a></td><td>Acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/38933006\">38933006</a></td><td>Recurrent rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/302471000210100\">302471000210100</a></td><td>Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/299171000210109\">299171000210109</a></td><td>History of acute rheumatic fever without heart disease</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
+  "version" : "0.1.1",
+  "name" : "ARFDiagnosisCodeVS",
+  "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+  "status" : "draft",
+  "date" : "2024-05-15T10:53:52+10:00",
+  "publisher" : "Northern Australia Regional Digital Health Collaborative",
+  "contact" : [{
+    "name" : "Northern Australia Regional Digital Health Collaborative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://nardhc.org"
+    }]
+  }],
+  "description" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "195528001",
+        "display" : "Acute rheumatic fever"
+      },
+      {
+        "code" : "38933006",
+        "display" : "Recurrent rheumatic fever"
+      },
+      {
+        "code" : "302471000210100",
+        "display" : "Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever"
+      },
+      {
+        "code" : "299171000210109",
+        "display" : "History of acute rheumatic fever without heart disease"
+      }]
+    }]
+  }
+}

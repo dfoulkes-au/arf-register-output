@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="arf-medication-code-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul/></div>
+  </text>
+  <url value="http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs"/>
+  <version value="0.1.1"/>
+  <name value="ARFMedicationCodeVS"/>
+  <title value="Medication Codes for Acute Rheumatic Fever"/>
+  <status value="draft"/>
+  <date value="2024-05-15T10:53:52+10:00"/>
+  <publisher value="Northern Australia Regional Digital Health Collaborative"/>
+  <contact>
+    <name value="Northern Australia Regional Digital Health Collaborative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://nardhc.org"/>
+    </telecom>
+  </contact>
+  <description value="Medication Codes for Acute Rheumatic Fever"/>
+</ValueSet>

@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "arf-severity-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/260413007\">260413007</a></td><td>None</td></tr><tr><td><a href=\"http://snomed.info/id/255604002\">255604002</a></td><td>Mild</td></tr><tr><td><a href=\"http://snomed.info/id/6736007\">6736007</a></td><td>Moderate</td></tr><tr><td><a href=\"http://snomed.info/id/24484000\">24484000</a></td><td>Severe</td></tr><tr><td><a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>Unknown</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
+  fhir:name [ fhir:v "ARFSeverityVS"] ; # 
+  fhir:title [ fhir:v "Acute Rheumatic Fever Condition Severity"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-05-15T10:53:52+10:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Northern Australia Regional Digital Health Collaborative"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Northern Australia Regional Digital Health Collaborative" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://nardhc.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Acute Rheumatic Fever Condition Severity"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "260413007" ] ;
+         fhir:display [ fhir:v "None" ]
+       ] [
+         fhir:code [ fhir:v "255604002" ] ;
+         fhir:display [ fhir:v "Mild" ]
+       ] [
+         fhir:code [ fhir:v "6736007" ] ;
+         fhir:display [ fhir:v "Moderate" ]
+       ] [
+         fhir:code [ fhir:v "24484000" ] ;
+         fhir:display [ fhir:v "Severe" ]
+       ] [
+         fhir:code [ fhir:v "261665006" ] ;
+         fhir:display [ fhir:v "Unknown" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

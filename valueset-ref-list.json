@@ -1,0 +1,33 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFDiagnosisCodeVS",
+      "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "description" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFMedicationCodeVS",
+      "title" : "Medication Codes for Acute Rheumatic Fever",
+      "description" : "Medication Codes for Acute Rheumatic Fever"
+    },
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFSeverityVS",
+      "title" : "Acute Rheumatic Fever Condition Severity",
+      "description" : "Acute Rheumatic Fever Condition Severity",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

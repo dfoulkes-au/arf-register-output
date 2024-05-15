@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - Implementation Guide Draft for ARF/RHD Register - AU v0.1.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Implementation Guide for ARF/RHD Register - AU</span>
+            <br/>
+            <span style="display:inline-block;">0.1.1 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister|0.1.1"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-05-15
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ARFRegisterIG</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#implementation-guide-for-arf-register" id="markdown-toc-implementation-guide-for-arf-register">Implementation Guide for ARF Register</a>    <ul>
+      <li><a href="#background" id="markdown-toc-background">Background</a></li>
+      <li><a href="#modelling-approach" id="markdown-toc-modelling-approach">Modelling Approach</a></li>
+      <li><a href="#workflows" id="markdown-toc-workflows">Workflows</a>        <ul>
+          <li><a href="#register-patient" id="markdown-toc-register-patient">Register Patient</a></li>
+          <li><a href="#create-care--medication-plan" id="markdown-toc-create-care--medication-plan">Create Care &amp; Medication Plan</a></li>
+          <li><a href="#record-medication-administration" id="markdown-toc-record-medication-administration">Record Medication Administration</a></li>
+          <li><a href="#query-status-of-the-patient" id="markdown-toc-query-status-of-the-patient">Query Status of the Patient</a></li>
+          <li><a href="#maintenance-actions" id="markdown-toc-maintenance-actions">Maintenance Actions</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<h1 id="implementation-guide-for-arf-register">Implementation Guide for ARF Register</h1>
+
+<h2 id="background">Background</h2>
+
+<p>Acute rheumatic fever (ARF) results from the body’s autoimmune response to a throat infection caused by Streptococcus pyogenes, also known as the group A Streptococcus bacteria. Rheumatic heart disease (RHD) refers to the long-term cardiac damage caused by either a single severe episode or multiple recurrent episodes of ARF.  The development of ARF occurs approximately two weeks after S. pyogenes infection . The clinical manifestations and symptoms of ARF can be severe and are described in the Revised Jones Criteria on which the data modelling below is based.</p>
+
+<p>Whilst ARF is relatively rare in wealth countries,  reported ARF incidence rates are high in populations in rural/remote Northern Australia  (NQ 155/100,000 in children aged 5 to 14 and NT380/100,000 children).</p>
+
+<p>Management of ARF is crucial for preventing development of Rheumatic Heart Disease in a patient.  This is primarily achieved by regular injections of Benzathine (Bicillin),  but for various reasons this can be difficult to maintain and track.   For this reason,  a national or regional ARF/RHD register that tracks ongoing compliance with medication is an important tool in controlling this disease.</p>
+
+<p>This Implementation Guide outlines the FHIR profiles to be used in an ARF national or state register to support management of ARF.</p>
+
+<p>Other content goes here…</p>
+
+<h2 id="modelling-approach">Modelling Approach</h2>
+
+<p>The FHIR resources in this implementation guide are based on AU Base Implementation Guide in order to apply this directly in Northern Australia contexts.  Due care is being taken to enable this to readily migrate to AU Core once this becomes stable.</p>
+
+<p>It is also intended to create a generic ARF IG that will be based on generic FHIR v5 in order to keep the modelling reusable across international contexts.</p>
+
+<p>The following resource profiles are described in this IG:
+(diagram of resources and their relationships)</p>
+
+<h2 id="workflows">Workflows</h2>
+
+<p>The models support four primary workflows:</p>
+
+<h3 id="register-patient">Register Patient</h3>
+
+<p>This workflow involves registering a new patient for ongoing monitoring by the register.   This is achieved by posting a FHIR bundle including Patient, Condition and Allergy resources.</p>
+
+<h3 id="create-care--medication-plan">Create Care &amp; Medication Plan</h3>
+
+<p>This workflow takes place for a previously registered patient,  and is used to record the intended care strategy and medications for the specified patient.    This workflow will also be used to create updated plan/medication strategies after a prior plan has expired,  or when changes are neccessary.  This workflow involves creating a Careplan and a Medication Resource outlining frequency and dosage of medications and specifying which Organization(s) and Practitioners will be responsible for the patient care.</p>
+
+<h3 id="record-medication-administration">Record Medication Administration</h3>
+
+<p>This workflow takes place when a specific instance of the medication request has been administered to the patient.</p>
+
+<h3 id="query-status-of-the-patient">Query Status of the Patient</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>This workflow may take place at any time,  and will return the current status of the patient:   Not Registered</td>
+      <td>Registered</td>
+      <td>Deceased</td>
+      <td>Care Plan Created</td>
+      <td>Care Plan Expired</td>
+      <td>Care Plan on Track</td>
+      <td>Overdue</td>
+      <td>Loss of Contact.    This query will also indicate the most recent administration of medication,  Patient contact details,  and Practitioner/Organization.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="maintenance-actions">Maintenance Actions</h3>
+
+<p>In addition to the workflows above,  a number of routine workflows are supported to update/maintain patient, condition, careplan etc.</p>
+
+<p><strong>Acknowledgements</strong>
+<a href="https://build.fhir.org/ig/tewhatuora/cinc-fhir-ig/index.html">Te Whatu Ora Shared Care FHIR API</a></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 15, 2024 10:53+1000">2024-05-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

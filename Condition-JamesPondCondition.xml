@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="JamesPondCondition"/>
+  <meta>
+    <profile value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="JamesPondCondition"> </a><a name="hcJamesPondCondition"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCondition &quot;JamesPondCondition&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFCondition.html">ARFCondition</a></p></div><p><b>identifier</b>: <code>http://arf-register.nardhc.org/system/registration-id</code>/ARF1000123</p><p><b>clinicalStatus</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#active)</span></p><p><b>verificationStatus</b>: confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#confirmed)</span></p><p><b>category</b>: problem-list-item <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#problem-list-item)</span></p><p><b>severity</b>: moderate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#moderate)</span></p><p><b>code</b>: Acute rheumatic fever <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOWMED CT</a>#195528001)</span></p><p><b>subject</b>: <a href="Patient-JamesPondPatient.html">Patient/JamesPondPatient</a> &quot; POND&quot;</p><p><b>onset</b>: 1995-02-02</p><p><b>recordedDate</b>: 2023-01-30</p><p><b>recorder</b>: <a href="Practitioner-DoctorPayne.html">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p><p><b>asserter</b>: <a href="Practitioner-DoctorPayne.html">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p></div>
+  </text>
+  <identifier>
+    <system value="http://arf-register.nardhc.org/system/registration-id"/>
+    <value value="ARF1000123"/>
+  </identifier>
+  <clinicalStatus>
+    <coding>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <code value="problem-list-item"/>
+    </coding>
+  </category>
+  <severity>
+    <coding>
+      <code value="moderate"/>
+    </coding>
+  </severity>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="195528001"/>
+      <display value="Acute rheumatic fever"/>
+    </coding>
+    <text value="Acute rheumatic fever"/>
+  </code>
+  <subject>
+    <reference value="Patient/JamesPondPatient"/>
+  </subject>
+  <onsetDateTime value="1995-02-02"/>
+  <recordedDate value="2023-01-30"/>
+  <recorder>
+    <reference value="Practitioner/DoctorPayne"/>
+  </recorder>
+  <asserter>
+    <reference value="Practitioner/DoctorPayne"/>
+  </asserter>
+</Condition>

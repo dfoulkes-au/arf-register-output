@@ -1,0 +1,645 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFDiagnosisCodeVS",
+      "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "description" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFMedicationCodeVS",
+      "title" : "Medication Codes for Acute Rheumatic Fever",
+      "description" : "Medication Codes for Acute Rheumatic Fever"
+    },
+    {
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
+      "version" : "0.1.1",
+      "status" : "draft",
+      "name" : "ARFSeverityVS",
+      "title" : "Acute Rheumatic Fever Condition Severity",
+      "description" : "Acute Rheumatic Fever Condition Severity",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.162"],
+      "sources" : ["2.16.840.1.113883.4.642.3.162"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : ["2.16.840.1.113883.4.642.3.164"],
+      "sources" : ["2.16.840.1.113883.4.642.3.164"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/DiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.168"],
+      "sources" : ["2.16.840.1.113883.4.642.3.168"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Example value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.170"],
+      "sources" : ["2.16.840.1.113883.4.642.3.170"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.166"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/gender-identity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GenderIdentity",
+      "title" : "Gender identity",
+      "description" : "This example value set defines a set of codes that can be used to indicate a patient's gender identity.",
+      "systems" : ["http://hl7.org/fhir/gender-identity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.972"],
+      "sources" : ["2.16.840.1.113883.4.642.3.972"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
+      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.29"],
+      "sources" : ["2.16.840.1.113883.4.642.3.29"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication usage category codes",
+      "title" : "Medication usage category codes",
+      "description" : "Medication Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.370"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication Status Codes",
+      "title" : "Medication  status  codes",
+      "description" : "Medication Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.367"],
+      "sources" : ["2.16.840.1.113883.4.642.3.367"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Category Codes",
+      "title" : "Medication request  category  codes",
+      "description" : "MedicationRequest Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1322"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1322"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Course of Therapy Codes",
+      "title" : "Medication request  course of  therapy  codes",
+      "description" : "MedicationRequest Course of Therapy Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1326"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1326"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Intent",
+      "title" : "Medication request  intent",
+      "description" : "MedicationRequest Intent Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1321"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1321"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationrequest Status",
+      "title" : "Medicationrequest  status",
+      "description" : "MedicationRequest Status Codes",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/medicationrequest-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1320"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1320"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "medicationRequest Status Reason Codes",
+      "title" : "Medication request  status  reason  codes",
+      "description" : "MedicationRequest Status Reason Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1324"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1324"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTDrugTherapyStatusCodes",
+      "title" : "SNOMED CT Drug Therapy Status codes ",
+      "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.369"],
+      "sources" : ["2.16.840.1.113883.4.642.3.369"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://terminology.hl7.org.au/ValueSet/contact-purpose",
+      "version" : "4.1.0",
+      "status" : "active",
+      "name" : "ContactPurpose",
+      "title" : "Contact Purpose",
+      "description" : "The purpose for which an associated contact can be reached.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/contactentity-type",
+        "http://terminology.hl7.org.au/CodeSystem/contact-purpose"
+      ],
+      "oids" : ["2.16.840.1.113883.2.3.4.2.4.19"],
+      "sources" : ["2.16.840.1.113883.2.3.4.2.4.19"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+    },
+    {
+      "url" : "http://terminology.hl7.org.au/ValueSet/mims",
+      "version" : "4.1.0",
+      "status" : "active",
+      "name" : "MIMS",
+      "title" : "MIMS",
+      "description" : "The MIMS value set includes all values from the Monthly Index of Medical Specialties (MIMS) published by MIMS Australia. Further details can be found at https://www.mims.com.au/.",
+      "systems" : ["http://www.mims.com.au/codes"],
+      "oids" : ["2.16.840.1.113883.2.3.4.2.4.7"],
+      "sources" : ["2.16.840.1.113883.2.3.4.2.4.7"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://terminology.hl7.org.au/ValueSet/pbs-item",
+      "version" : "4.1.0",
+      "status" : "active",
+      "name" : "PBSItemCodes",
+      "title" : "PBS Item Codes",
+      "description" : "The PBS Item Codes value set includes all values from Australian Pharmaceutical Benefits Scheme (PBS) schedule published by the Department of Health. Further details can be found at https://www.pbs.gov.au/pbs/.",
+      "systems" : ["http://pbs.gov.au/code/item"],
+      "oids" : ["2.16.840.1.113883.2.3.4.2.4.8"],
+      "sources" : ["2.16.840.1.113883.2.3.4.2.4.8"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "http://terminology.hl7.org.au/ValueSet/v2-0360-extended",
+      "version" : "4.1.0",
+      "status" : "active",
+      "name" : "Hl7VSDegreeLicenseCertificateAUExtended",
+      "title" : "hl7VS-degreeLicenseCertificate - AU Extended",
+      "description" : "hl7VS-degreeLicenseCertificate extended for use in an Australian context. Includes HL7 international codes plus Australian additions to create a complete set.",
+      "systems" : [
+        "http://terminology.hl7.org.au/CodeSystem/v2-0360",
+        "http://terminology.hl7.org/CodeSystem/v2-0360"
+      ],
+      "oids" : ["2.16.840.1.113883.2.3.4.2.3.360"],
+      "sources" : ["2.16.840.1.113883.2.3.4.2.3.360"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActSubstanceAdminSubstitutionCode",
+      "title" : "ActSubstanceAdminSubstitutionCode",
+      "description" : "***No description***",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+      ],
+      "oids" : ["2.16.840.1.113883.1.11.16621"],
+      "sources" : ["2.16.840.1.113883.1.11.16621"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-GTIN",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "GTIN",
+      "title" : "GTIN",
+      "description" : "**Description:**Global Trade Item Number is an identifier for trade items developed by GS1 (comprising the former EAN International and Uniform Code Council).",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19885"],
+      "sources" : ["2.16.840.1.113883.1.11.19885"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1",
+      "version" : "1.0.2",
+      "status" : "active",
+      "name" : "AustralianMedication",
+      "title" : "Australian Medication",
+      "description" : "The Australian Medication value set includes all Australian Medicines Terminology (AMT) product concepts that may be used for the identification of a medicine, vaccine or other therapeutic good. This is suitable for the recording of a product which may be ordered for, administered to, or used by an individual.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10003"],
+      "sources" : ["1.2.36.1.2001.1004.201.10003"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1",
+      "version" : "1.0.2",
+      "status" : "active",
+      "name" : "BodySite",
+      "title" : "Body Site",
+      "description" : "The Body Site value set includes values that cover a broad range of anatomical and acquired body structures suitable for identifying a body site.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10031"],
+      "sources" : ["1.2.36.1.2001.1004.201.10031"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1",
+      "version" : "1.0.2",
+      "status" : "active",
+      "name" : "ClinicalFinding",
+      "title" : "Clinical Finding",
+      "description" : "The Clinical Finding value set includes a broad range of values that support the recording of disorders and clinical findings, including observations, judgments or assessments about subjects of care.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10037"],
+      "sources" : ["1.2.36.1.2001.1004.201.10037"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ClinicalSpecialty",
+      "title" : "Clinical Specialty",
+      "description" : "The Clinical Specialty value set includes values that may be used to describe a clinical specialty performed by an entity.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10186"],
+      "sources" : ["1.2.36.1.2001.1004.201.10186"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2",
+      "version" : "2.2.1",
+      "status" : "active",
+      "name" : "CommonLanguagesInAustralia",
+      "title" : "Common Languages in Australia",
+      "description" : "The Common Languages in Australia value set includes languages that are commonly encountered in Australia, including a comprehensive set of Australian Indigenous languages.",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["1.2.36.1.2001.1004.201.10069"],
+      "sources" : ["1.2.36.1.2001.1004.201.10069"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3",
+      "version" : "3.1.0",
+      "status" : "active",
+      "name" : "ContactRelationshipType",
+      "title" : "Contact Relationship Type",
+      "description" : "The Contact Relationship Type value set includes values that may be used to describe the nature of the relationship between the subject and the contact person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v2-0131",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["1.2.36.1.2001.1004.201.10187"],
+      "sources" : ["1.2.36.1.2001.1004.201.10187"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "GenderIdentityResponse",
+      "title" : "Gender Identity Response",
+      "description" : "The Gender Identity Response value set includes values that may be used to represent a response for an individual’s gender. A person's gender is a social and cultural identity, expression and experience.",
+      "systems" : [
+        "http://snomed.info/sct",
+        "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+      ],
+      "oids" : ["1.2.36.1.2001.1004.201.10271"],
+      "sources" : ["1.2.36.1.2001.1004.201.10271"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/healthcare-organisation-role-type-1",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "HealthcareOrganisationRoleType",
+      "title" : "Healthcare Organisation Role Type",
+      "description" : "The Healthcare Organisation Role Type value set includes values that can represent the role, use or function of a healthcare related organisation or facility.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10112"],
+      "sources" : ["1.2.36.1.2001.1004.201.10112"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/medication-reason-taken-1",
+      "version" : "1.1.0",
+      "status" : "active",
+      "name" : "MedicationReasonTaken",
+      "title" : "Medication Reason Taken",
+      "description" : "The Medication Reason Taken value set includes values that identify a reason why a medication has been or is being taken.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10048"],
+      "sources" : ["1.2.36.1.2001.1004.201.10048"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/medicine-substitution-reason-1",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "MedicineSubstitutionReason",
+      "title" : "Medicine Substitution Reason",
+      "description" : "The Medicine Substitution Reason value set includes values that may be used to record the reason for medicine substitution.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10067"],
+      "sources" : ["1.2.36.1.2001.1004.201.10067"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/practitioner-role-1",
+      "version" : "1.0.2",
+      "status" : "active",
+      "name" : "PractitionerRole",
+      "title" : "Practitioner Role",
+      "description" : "The Practitioner Role value set includes values that describe the role that a practitioner is authorised to perform within an organisation.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10028"],
+      "sources" : ["1.2.36.1.2001.1004.201.10028"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/reason-for-request-1",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ReasonForRequest",
+      "title" : "Reason for Request",
+      "description" : "The Reason for Request value set includes values that can be used to indicate the rationale for a request. For example, this may include the reason for requesting a service or diagnostic procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10078"],
+      "sources" : ["1.2.36.1.2001.1004.201.10078"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    }
+  ]
+}

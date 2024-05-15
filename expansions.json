@@ -1,0 +1,169 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "823a986a-254e-4f7a-a49a-db21bfd1e8e5",
+  "meta" : {
+    "lastUpdated" : "2024-05-15T10:53:52.152+10:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Feb 2024</p><p>This value set contains 2 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-195528001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/195528001\">195528001</a></td><td>http://snomed.info/sct</td><td>Acute rheumatic fever</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-38933006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/38933006\">38933006</a></td><td>http://snomed.info/sct</td><td>Recurrent rheumatic fever</td></tr></table></div>"
+      },
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
+      "version" : "0.1.1",
+      "name" : "ARFDiagnosisCodeVS",
+      "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
+      "status" : "draft",
+      "date" : "2024-05-15T10:53:52+10:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:65f3b5da-67a4-4431-8a57-83ac83156ba1",
+        "timestamp" : "2024-05-15T10:54:29+10:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "195528001",
+          "display" : "Acute rheumatic fever"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "38933006",
+          "display" : "Recurrent rheumatic fever"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
+      "version" : "0.1.1",
+      "name" : "ARFMedicationCodeVS",
+      "title" : "Medication Codes for Acute Rheumatic Fever",
+      "status" : "draft",
+      "date" : "2024-05-15T10:53:52+10:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:4936801b-5e9a-4e47-94a1-02642465f907",
+        "timestamp" : "2024-05-15T10:54:29+10:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-Feb 2024</p><p>This value set contains 5 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260413007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/260413007\">260413007</a></td><td>http://snomed.info/sct</td><td>None</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255604002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/255604002\">255604002</a></td><td>http://snomed.info/sct</td><td>Mild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6736007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/6736007\">6736007</a></td><td>http://snomed.info/sct</td><td>Moderate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24484000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/24484000\">24484000</a></td><td>http://snomed.info/sct</td><td>Severe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-261665006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>http://snomed.info/sct</td><td>Unknown</td></tr></table></div>"
+      },
+      "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
+      "version" : "0.1.1",
+      "name" : "ARFSeverityVS",
+      "title" : "Acute Rheumatic Fever Condition Severity",
+      "status" : "draft",
+      "date" : "2024-05-15T10:53:52+10:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:b7789297-8201-44dd-9976-5e0147ac3565",
+        "timestamp" : "2024-05-15T10:54:29+10:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "260413007",
+          "display" : "None"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002",
+          "display" : "Mild"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6736007",
+          "display" : "Moderate"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24484000",
+          "display" : "Severe"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "261665006",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  }]
+}

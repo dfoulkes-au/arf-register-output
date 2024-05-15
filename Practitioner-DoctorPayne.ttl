@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/Practitioner/DoctorPayne> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DoctorPayne"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitioner"^^xsd:anyURI ;
+       fhir:link <http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitioner>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"DoctorPayne\"> </a><a name=\"hcDoctorPayne\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourcePractitioner &quot;DoctorPayne&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFPractitioner.html\">ARFPractitioner</a></p></div><p><b>identifier</b>: National provider identifier/8003619900015717 (use: official)</p><p><b>name</b>: Jane Payne </p><p><b>telecom</b>: <a href=\"tel:+61455123456\">+61 455 123456</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "NPI" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://ns.electronichealth.net.au/id/hi/hpii/1.0"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "8003619900015717" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Payne" ] ;
+     fhir:given ( [ fhir:v "Jane" ] ) ;
+     fhir:prefix ( [ fhir:v "Dr" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+61 455 123456" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

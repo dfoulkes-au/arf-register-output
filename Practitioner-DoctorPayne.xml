@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="DoctorPayne"/>
+  <meta>
+    <profile value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="DoctorPayne"> </a><a name="hcDoctorPayne"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitioner &quot;DoctorPayne&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFPractitioner.html">ARFPractitioner</a></p></div><p><b>identifier</b>: National provider identifier/8003619900015717 (use: official)</p><p><b>name</b>: Jane Payne </p><p><b>telecom</b>: <a href="tel:+61455123456">+61 455 123456</a></p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="NPI"/>
+      </coding>
+    </type>
+    <system value="http://ns.electronichealth.net.au/id/hi/hpii/1.0"/>
+    <value value="8003619900015717"/>
+  </identifier>
+  <name>
+    <family value="Payne"/>
+    <given value="Jane"/>
+    <prefix value="Dr"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="+61 455 123456"/>
+  </telecom>
+</Practitioner>
