@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "ARFRegisterIG"] ; # 
   fhir:title [ fhir:v "Implementation Guide (Draft) for ARF/RHD Register - AU"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-15T15:51:17+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-16T11:47:37+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Northern Australia Regional Digital Health Collaborative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Northern Australia Regional Digital Health Collaborative" ] ;
@@ -541,6 +541,18 @@
        ] ;
        fhir:name [ fhir:v "Acute Rheumatic Fever Condition Severity" ] ;
        fhir:description [ fhir:v "Acute Rheumatic Fever Condition Severity" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy> ;
+         fhir:reference [ fhir:v "StructureDefinition/ARFAllergy" ]
+       ] ;
+       fhir:name [ fhir:v "ARFAllergy" ] ;
+       fhir:description [ fhir:v "Profile of Allergy/Intolerance for ARF Patient. Only medication allergies are of interest in an ARF Register" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

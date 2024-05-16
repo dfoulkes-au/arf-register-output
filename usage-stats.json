@@ -4,6 +4,12 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
+    "AllergyIntolerance": [
+      {
+        "url": "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy",
+        "title": "ARFAllergy"
+      }
+    ],
     "Condition": [
       {
         "url": "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition",

@@ -49,8 +49,82 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.133"],
+      "sources" : ["2.16.840.1.113883.4.642.3.133"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"],
+      "oids" : ["2.16.840.1.113883.4.642.3.129"],
+      "sources" : ["2.16.840.1.113883.4.642.3.129"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceType",
+      "title" : "AllergyIntoleranceType",
+      "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.131"],
+      "sources" : ["2.16.840.1.113883.4.642.3.131"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1372"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1372"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceVerificationStatusCodes",
+      "title" : "AllergyIntolerance Verification Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Verification Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1370"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -151,6 +225,34 @@
       "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
       "version" : "4.0.1",
       "status" : "draft",
@@ -162,13 +264,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
-      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
       "StructureDefinition-ARFCondition.html" : "ARFCondition",
       "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -337,6 +440,20 @@
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSeverity",
+      "title" : "AllergyIntoleranceSeverity",
+      "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+      "systems" : ["http://hl7.org/fhir/reaction-event-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.135"],
+      "sources" : ["2.16.840.1.113883.4.642.3.135"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
       "version" : "4.0.1",
       "status" : "draft",
@@ -460,6 +577,20 @@
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/adverse-reaction-agent-1",
+      "version" : "1.1.1",
+      "status" : "active",
+      "name" : "AdverseReactionAgent",
+      "title" : "Adverse Reaction Agent",
+      "description" : "The Adverse Reaction Agent value set includes values that support the recording of agents that may be responsible for causing adverse reactions. It is a broad set encompassing medicinal and non-medicinal agents.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10036"],
+      "sources" : ["1.2.36.1.2001.1004.201.10036"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/australian-medication-1",
       "version" : "1.0.2",
       "status" : "active",
@@ -500,7 +631,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10037"],
       "uses" : {
       },
-      "StructureDefinition-ARFCondition.html" : "ARFCondition"
+      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1",
@@ -528,8 +660,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10069"],
       "uses" : {
       },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3",
@@ -578,6 +710,20 @@
       "uses" : {
       },
       "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/indicator-hypersensitivity-intolerance-to-substance-2",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "IndicatorOfHypersensitivityOrIntoleranceToSubstance",
+      "title" : "Indicator of Hypersensitivity or Intolerance to Substance",
+      "description" : "The Indicator of Hypersensitivity or Intolerance to Substance value set includes values that may be used to indicate or state a propensity to adverse reaction to a substance. The values represent a range of concept types such as substances, medicines, clinical findings and negated allergy findings.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10087"],
+      "sources" : ["1.2.36.1.2001.1004.201.10087"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/medication-reason-taken-1",
@@ -634,6 +780,20 @@
       "uses" : {
       },
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1",
+      "version" : "1.0.2",
+      "status" : "active",
+      "name" : "RouteOfAdministration",
+      "title" : "Route of Administration",
+      "description" : "The Route of Administration value set includes values that describe the route by which a medicine may be administered.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["1.2.36.1.2001.1004.201.10041"],
+      "sources" : ["1.2.36.1.2001.1004.201.10041"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
     }
   ]
 }

@@ -11,7 +11,7 @@
   <name value="ARFRegisterIG"/>
   <title value="Implementation Guide (Draft) for ARF/RHD Register - AU"/>
   <status value="draft"/>
-  <date value="2024-05-15T15:51:17+10:00"/>
+  <date value="2024-05-16T11:47:37+10:00"/>
   <publisher value="Northern Australia Regional Digital Health Collaborative"/>
   <contact>
     <name value="Northern Australia Regional Digital Health Collaborative"/>
@@ -469,6 +469,17 @@
       </reference>
       <name value="Acute Rheumatic Fever Condition Severity"/>
       <description value="Acute Rheumatic Fever Condition Severity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ARFAllergy"/>
+      </reference>
+      <name value="ARFAllergy"/>
+      <description value="Profile of Allergy/Intolerance for ARF Patient. Only medication allergies are of interest in an ARF Register"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
