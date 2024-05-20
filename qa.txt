@@ -1,13 +1,13 @@
 ARFRegisterIG : Validation Results
 =========================================
 
-err = 6, warn = 24, info = 2
+err = 5, warn = 23, info = 2
 IG Publisher Version: 1.6.7
-Generated Thu May 16 11:48:36 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
+Generated Mon May 20 10:00:47 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 1 / 4 / 0
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition : 3 / 4 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 1 / 2 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 1 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient : 2 / 0 / 2
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 1 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 0 / 1
@@ -39,9 +39,7 @@ WARNING: Condition/JamesPondCondition: Condition.severity.coding[0]: Coding has 
 ERROR: Condition/JamesPondCondition: Condition.severity: None of the codings provided are in the value set 'Acute Rheumatic Fever Condition Severity' (http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs|0.1.1), and a coding from this value set is required) (codes = null#moderate)
 == fsh-generated\resources\ImplementationGuide-fhir.arfregister.json ==
 == fsh-generated\resources\Organization-VeryRemoteClinic.json ==
-ERROR: Organization/VeryRemoteClinic: Organization: Organization.identifier:AUHPIO: max allowed = 1, but found 2 (from http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation|0.1.1)
 WARNING: Organization/VeryRemoteClinic: Organization.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier
-WARNING: Organization/VeryRemoteClinic: Organization.address[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address
 == fsh-generated\resources\Patient-JamesPondPatient.json ==
 INFORMATION: Patient/JamesPondPatient: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated
 ERROR: Patient/JamesPondPatient: Patient.managingOrganization: Unable to resolve resource with reference 'RemoteClinic'

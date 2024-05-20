@@ -13,9 +13,7 @@ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition.json: line 26, col 6, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition.json: line 48, col 4, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition.json: line 48, col 4, Error - None of the codings provided are in the value set 'Acute Rheumatic Fever Condition Severity' (http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs|0.1.1), and a coding from this value set is required) (codes = null#moderate) (CODEINVALID)
-C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic.json: line 1, col 2, Error - Organization.identifier:AUHPIO: max allowed = 1, but found 2 (from http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation|0.1.1) (STRUCTURE)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic.json: line 16, col 6, Warning - Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier (STRUCTURE)
-C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic.json: line 34, col 6, Warning - Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address (STRUCTURE)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient.json: line 40, col 8, Info - A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated (UNKNOWN)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient.json: line 55, col 4, Error - Unable to resolve resource with reference 'RemoteClinic' (STRUCTURE)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient.json: line 0, col 0, Error - Hyperlink 'RemoteClinic' at 'div/table/tr/td/ul/li/a' for 'RemoteClinic' does not resolve (INVALID)
@@ -35,5 +33,5 @@ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-medication-code
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-medication-code-vs.json: line 1, col 2234, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-severity-vs.json: line 1, col 1567, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 6, warn = 24, info = 2
+err = 5, warn = 23, info = 2
 IG Publisher Version: 1.6.7

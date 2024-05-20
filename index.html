@@ -145,7 +145,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2024-05-16
+            as of 2024-05-20
           
         
       </td>
@@ -191,30 +191,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="background">Background</h2>
 
-<p>Acute rheumatic fever (ARF) results from the body’s autoimmune response to a throat infection caused by Streptococcus pyogenes, also known as the group A Streptococcus bacteria. Rheumatic heart disease (RHD) refers to the long-term cardiac damage caused by either a single severe episode or multiple recurrent episodes of ARF.  The development of ARF occurs approximately two weeks after S. pyogenes infection . The clinical manifestations and symptoms of ARF can be severe and are described in the Revised Jones Criteria on which the data modelling below is based.</p>
+<p>Acute rheumatic fever (ARF) results from the body’s autoimmune response following an infection with Group A Streptococcus bacterium (Streptococcus pyogenes). Rheumatic heart disease (RHD) refers to the long-term cardiac damage caused by either a single severe episode or multiple recurrent episodes of ARF.  The development of ARF occurs approximately two weeks after S. pyogenes infection . The clinical manifestations and symptoms of ARF can be severe and are described in the Revised Jones Criteria on which the data modelling below is based.</p>
 
-<p>Whilst ARF is relatively rare in wealth countries,  reported ARF incidence rates are high in populations in rural/remote Northern Australia  (NQ 155/100,000 in children aged 5 to 14 and NT380/100,000 children).</p>
+<p>Whilst ARF is relatively rare in developed countries,  reported incidence rates are high in populations in rural/remote Northern Australia  (NQ 155/100,000 in children aged 5 to 14 and NT380/100,000 children).</p>
 
-<p>Injectable benzathine penicillin G (BPG), given via intramuscular injection every 3 to 4 weeks for a prolonged period (eg, 10 years, until age 40 years, lifelong) is the cornerstone of RHD prevention (preventing rheumatic fever recurrence) and management. For various reasons this can be difficult to maintain and track.  Thus a national or regional ARF/RHD register that tracks a patients ongoing compliance with medication is an important tool in controlling progression of this disease.</p>
+<p>The cornerstone of RHD prevention and management is the prevention of rheumatic fever recurrence by means of regular 3-4 weekly intramuscular injections of benzathine penicillin G (BPG or Bicillin) administered over a prolonged period (10 years or more).  However, failure to maintain regularity of this treatment places the patient at risk of accumulative damage to heart valves, and can lead to heart failure and/or stroke.</p>
 
-<p>In NQ, Adherence to recommended frequency of such injection has been very low:</p>
+<p>Studies have shown that in Northern Queensland, adherence to recommended frequency of such injection has been very low.  There are a number of contributing factors to this,  not least of which is the degree of discomfort caused to the patient in administering this injection. However the stark reality is that many/most patients with diagnosed ARF in NQ are at significant risk of developing RHD:</p>
 <blockquote>
   <p>Overall, adherence to secondary prophylaxis for ARF/RHD in Far North Queensland over the study period was insufficient to provide prophylaxis against recurrences of ARF per current guidelines. The vast majority of injections were not delivered within the recommended 28‐day interval and a significant number were not even administered within 35 days.</p>
 </blockquote>
 <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8048926/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8048926/</a></p>
 
-<p>This Implementation Guide outlines the FHIR profiles to be used in an ARF national or state register to support management of ARF.</p>
+<p>An  effective national or regional ARF/RHD register that tracks a patients ongoing compliance with medication is a key factor and an important tool in improving adherence to the regular treatment of ARF/RHD, and thereby maintianing health of this population.   To be effective,  the ARF/RHD register must be highly interoperable, enabling updates from different EHR systems whilst minimising manual data entry steps of busy clinicians, and providing automated reminders and notifications to prompt and alert where patients are at risk due to non-compliance.</p>
 
-<p>Other content goes here…</p>
+<p>This Implementation Guide describes a set of FHIR profiles for interoperability/data exchange between EHR systems and a central ARF national or state register to support the workflows required to:</p>
+<ul>
+  <li>register patients</li>
+  <li>create care and medications plans</li>
+  <li>administer medications</li>
+  <li>and query patient compliance status</li>
+</ul>
+
+<p>Accompanying  documents outline a suggested architecture and design for the register and discuss alternate flat file API’s for EHR’s that are not FHIR compliant.</p>
 
 <h2 id="modelling-approach">Modelling Approach</h2>
 
 <p>The FHIR resources in this implementation guide are based on AU Base Implementation Guide in order to apply this directly in Northern Australia contexts.  Due care is being taken to enable this to readily migrate to AU Core once this becomes stable.</p>
 
-<p>It is also intended to create a generic ARF IG that will be based on generic FHIR v5 in order to keep the modelling reusable across international contexts.</p>
-
-<p>The following resource profiles are described in this IG:
-(diagram of resources and their relationships)</p>
+<p>It is also intended to create a generic ARF Implementation Guide for use in international contexts.  This will be based on generic FHIR v5 in order to keep the modelling reusable across different national contexts.</p>
 
 <h2 id="workflows">Workflows</h2>
 
@@ -253,7 +258,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>In addition to the workflows above,  a number of routine workflows are supported to update/maintain patient, condition, careplan etc.</p>
 
-<p><strong>Acknowledgements</strong>
+<p><strong>Acknowledgements</strong></p>
+
+<p><a href="https://build.fhir.org/ig/HL7/fhir-shorthand/overview.html">FHIR Shorthand FSH</a>
+<a href="https://build.fhir.org/ig/hl7au/au-fhir-base/index.html">FHIR Australia AU FHIR Base Implementation Guide</a>
 <a href="https://build.fhir.org/ig/tewhatuora/cinc-fhir-ig/index.html">Te Whatu Ora Shared Care FHIR API</a></p>
 
 
@@ -275,7 +283,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 16, 2024 11:47+1000">2024-05-16</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 20, 2024 09:59+1000">2024-05-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -10,7 +10,7 @@
   "name" : "ARFRegisterIG",
   "title" : "Implementation Guide (Draft) for ARF/RHD Register - AU",
   "status" : "draft",
-  "date" : "2024-05-16T11:47:37+10:00",
+  "date" : "2024-05-20T09:59:48+10:00",
   "publisher" : "Northern Australia Regional Digital Health Collaborative",
   "contact" : [{
     "name" : "Northern Australia Regional Digital Health Collaborative",
@@ -811,6 +811,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "arfpatient.html"
+        }],
+        "nameUrl" : "arfpatient.html",
+        "title" : "Arfpatient",
         "generation" : "markdown"
       }]
     },

@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 6, warn = 24, info = 2-->
+<!-- broken links = 1, errors = 5, warn = 23, info = 2-->
 <head>
   <title>ARFRegisterIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for ARFRegisterIG</h1>
- <p>Generated Thu May 16 11:48:36 AEST 2024, FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = <a href="http://fhir-arf-register.nardhc.org">http://fhir-arf-register.nardhc.org</a> (<a href="http://fhir-arf-register.nardhc.org/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Mon May 20 10:00:47 AEST 2024, FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = <a href="http://fhir-arf-register.nardhc.org">http://fhir-arf-register.nardhc.org</a> (<a href="http://fhir-arf-register.nardhc.org/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.7</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.arfregister, Canonical = http://fhir-arf-register.nardhc.org</td></tr>
@@ -55,7 +55,7 @@
 </table><para>Templates: fhir.base.template#current. Tools: 0.1.0</para></div></td></tr>
  <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
  <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
- <tr><td>Terminology Server(s):</td><td><a href="http://tx.fhir.org/r4">http://tx.fhir.org/r4</a>, <a href="https://tx.ontoserver.csiro.au/fhir">https://tx.ontoserver.csiro.au/fhir</a> (<a href="qa-txservers.html">details</a>)</td></tr>
+ <tr><td>Terminology Server(s):</td><td><a href="http://tx.fhir.org/r4">http://tx.fhir.org/r4</a> (<a href="qa-txservers.html">details</a>)</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Draft Dependencies:</td><td><ul>
@@ -69,8 +69,8 @@ hl7.fhir.au.base#4.1.0:     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefin
  (2 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-cspregistrationnumber.html">AUCSPRegistrationNumber</a>
  (2 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-pharmacyapprovalnumber.html">AUPharmacyApprovalNumber</a>
  (2 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-careagencyemployeeidentifier.html">AUCareAgencyEmployeeIdentifier</a>
- (1 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-ahpraregistrationnumber.html">AUAhpraRegistrationNumber</a>
- (2 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-employeenumber.html">AUEmployeeNumber</a>
+ (2 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-ahpraregistrationnumber.html">AUAhpraRegistrationNumber</a>
+ (3 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-employeenumber.html">AUEmployeeNumber</a>
  (1 uses),     <a href="http://hl7.org.au/fhir/4.1.0/StructureDefinition-au-timezone.html">AustralianTimeZone</a>
  (2 uses)
   </li>
@@ -102,7 +102,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-medicationrequest-category.html">medicationRequest Category Codes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-priority.html">RequestPriority</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>
- (13 uses),     <a href="http://hl7.org/fhir/R4/medication.html">Medication</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4/medication.html">Medication</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/valueset-medication-codes.html">SNOMEDCTMedicationCodes</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/bodyheight.html">observation-bodyheight</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/bodyweight.html">observation-bodyweight</a>
@@ -148,7 +148,7 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://fhir-arf-register.nardhc.org (Problem #1 with package-list.json at http://fhir-arf-register.nardhc.org: Not Found)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 6, warn = 24, info = 2, broken links = 1</td></tr>
+ <tr><td>Summary:</td><td> errors = 5, warn = 23, info = 2, broken links = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -160,8 +160,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    <tr style="background-color: #ffcccc">
      <td><a href="#C__Dev_fsh_arf-register-fsh_fsh-generated_resources_Condition-JamesPondCondition"><b>C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition</b></a></td><td><b>3</b></td><td><b>4</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__Dev_fsh_arf-register-fsh_fsh-generated_resources_Organization-VeryRemoteClinic"><b>C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Dev_fsh_arf-register-fsh_fsh-generated_resources_Organization-VeryRemoteClinic"><b>C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#C__Dev_fsh_arf-register-fsh_fsh-generated_resources_Patient-JamesPondPatient"><b>C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -249,14 +249,8 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Organization (l1/c2)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Maximum"><b>Organization.identifier:AUHPIO: max allowed = 1, but found 2 (from http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation|0.1.1)</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Organization.identifier[0] (l16/c6)</b></td><td><b>warning</b></td><td title="Validation_VAL_Profile_MultipleMatches"><b>Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Organization.address[0] (l34/c6)</b></td><td><b>warning</b></td><td title="Validation_VAL_Profile_MultipleMatches"><b>Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address</b></td>
    </tr>
 </table>
 <hr/>
@@ -428,22 +422,11 @@ hl7.terminology.r4#5.5.0:     <a href="http://terminology.hl7.org/5.5.0/CodeSyst
    </tr>
 </table>
 <hr/>
-<a name="Validation_VAL_Profile_Maximum"> </a>
-<h2>Validation_VAL_Profile_Maximum</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Organization-VeryRemoteClinic.html">fsh-generated\resources\Organization-VeryRemoteClinic.json</a></td><td><b>Organization.identifier:AUHPIO: max allowed = 1, but found 2 (from http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation|0.1.1)</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="Validation_VAL_Profile_MultipleMatches"> </a>
 <h2>Validation_VAL_Profile_MultipleMatches</h2>
  <table class="grid">
    <tr style="background-color: #fff4ee">
      <td><a href="Organization-VeryRemoteClinic.html">fsh-generated\resources\Organization-VeryRemoteClinic.json</a></td><td><b>Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Organization-VeryRemoteClinic.html">fsh-generated\resources\Organization-VeryRemoteClinic.json</a></td><td><b>Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="Practitioner-DoctorPayne.html">fsh-generated\resources\Practitioner-DoctorPayne.json</a></td><td><b>Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpii, http://hl7.org/fhir/StructureDefinition/Identifier</b></td>

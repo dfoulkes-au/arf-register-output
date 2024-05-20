@@ -236,7 +236,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -250,7 +251,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -264,14 +266,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
       "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
       "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
       "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
       "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
-      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -631,8 +633,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10037"],
       "uses" : {
       },
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
-      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1",
