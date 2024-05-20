@@ -22,8 +22,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
     },
     {
       "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
