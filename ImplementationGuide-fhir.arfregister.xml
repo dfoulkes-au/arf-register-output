@@ -9,20 +9,27 @@
   <url value="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister"/>
   <version value="0.1.1"/>
   <name value="ARFRegisterIG"/>
-  <title value="Implementation Guide (Draft) for ARF/RHD Register - AU"/>
+  <title value="Implementation Guide for ARF/RHD Register - AU"/>
   <status value="draft"/>
-  <date value="2024-05-20T12:15:26+10:00"/>
-  <publisher value="Northern Australia Regional Digital Health Collaborative"/>
+  <date value="2024-05-20T17:01:27+10:00"/>
+  <publisher value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
   <contact>
-    <name value="Northern Australia Regional Digital Health Collaborative"/>
+    <name value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
     <telecom>
       <system value="url"/>
       <value value="https://nardhc.org"/>
     </telecom>
   </contact>
   <description value="FHIR Implementation Guide for Acute Rheumatic Fever/Rheumatic Heart Disease Register - Australia version"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AUS"/>
+      <display value="Australia"/>
+    </coding>
+  </jurisdiction>
   <packageId value="fhir.arfregister"/>
-  <license value="CC0-1.0"/>
+  <license value="Apache-2.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">

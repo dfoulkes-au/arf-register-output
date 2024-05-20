@@ -49,8 +49,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
@@ -225,36 +225,6 @@
       "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Identifier Type Codes",
-      "title" : "IdentifierType",
-      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
-      "oids" : ["2.16.840.1.113883.4.642.3.45"],
-      "sources" : ["2.16.840.1.113883.4.642.3.45"],
-      "uses" : {
-      },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "IdentifierUse",
-      "title" : "IdentifierUse",
-      "description" : "Identifies the purpose for this identifier, if known .",
-      "systems" : ["http://hl7.org/fhir/identifier-use"],
-      "oids" : ["2.16.840.1.113883.4.642.3.57"],
-      "sources" : ["2.16.840.1.113883.4.642.3.57"],
-      "uses" : {
-      },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
       "version" : "4.0.1",
       "status" : "draft",
@@ -266,14 +236,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
       "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
       "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -633,8 +603,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10037"],
       "uses" : {
       },
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
-      "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1",
@@ -662,8 +632,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10069"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3",

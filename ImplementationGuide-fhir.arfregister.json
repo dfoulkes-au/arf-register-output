@@ -8,20 +8,27 @@
   "url" : "http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister",
   "version" : "0.1.1",
   "name" : "ARFRegisterIG",
-  "title" : "Implementation Guide (Draft) for ARF/RHD Register - AU",
+  "title" : "Implementation Guide for ARF/RHD Register - AU",
   "status" : "draft",
-  "date" : "2024-05-20T12:15:26+10:00",
-  "publisher" : "Northern Australia Regional Digital Health Collaborative",
+  "date" : "2024-05-20T17:01:27+10:00",
+  "publisher" : "D Foulkes - Northern Australia Regional Digital Health Collaborative",
   "contact" : [{
-    "name" : "Northern Australia Regional Digital Health Collaborative",
+    "name" : "D Foulkes - Northern Australia Regional Digital Health Collaborative",
     "telecom" : [{
       "system" : "url",
       "value" : "https://nardhc.org"
     }]
   }],
   "description" : "FHIR Implementation Guide for Acute Rheumatic Fever/Rheumatic Heart Disease Register - Australia version",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AUS",
+      "display" : "Australia"
+    }]
+  }],
   "packageId" : "fhir.arfregister",
-  "license" : "CC0-1.0",
+  "license" : "Apache-2.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
     "id" : "hl7tx",

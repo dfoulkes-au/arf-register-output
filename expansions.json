@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4d4bc0b3-4fe9-4cf4-8db2-c198ed547e0b",
+  "id" : "c9bacbd6-97e2-4b03-a436-f4809aaf4c5c",
   "meta" : {
-    "lastUpdated" : "2024-05-20T12:15:26.434+10:00"
+    "lastUpdated" : "2024-05-20T17:01:27.686+10:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,17 @@
       "name" : "ARFDiagnosisCodeVS",
       "title" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
       "status" : "draft",
-      "date" : "2024-05-20T12:15:26+10:00",
+      "date" : "2024-05-20T17:01:27+10:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:a6673d16-14bc-4601-9edd-ed7b7cea7ac9",
-        "timestamp" : "2024-05-20T12:15:56+10:00",
+        "identifier" : "urn:uuid:9b635e2f-0d5e-423c-984e-5537d12e5a7b",
+        "timestamp" : "2024-05-20T17:02:04+10:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -74,10 +81,17 @@
       "name" : "ARFMedicationCodeVS",
       "title" : "Medication Codes for Acute Rheumatic Fever",
       "status" : "draft",
-      "date" : "2024-05-20T12:15:26+10:00",
+      "date" : "2024-05-20T17:01:27+10:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:97e58d87-e325-4aaf-b15b-02b311927efe",
-        "timestamp" : "2024-05-20T12:15:56+10:00",
+        "identifier" : "urn:uuid:731076d2-bd5c-481f-ba84-aa3b7834eff0",
+        "timestamp" : "2024-05-20T17:02:04+10:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -120,10 +134,17 @@
       "name" : "ARFSeverityVS",
       "title" : "Acute Rheumatic Fever Condition Severity",
       "status" : "draft",
-      "date" : "2024-05-20T12:15:26+10:00",
+      "date" : "2024-05-20T17:01:27+10:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "AUS",
+          "display" : "Australia"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:8f4b123e-6ac3-48d6-8175-6942c541ecd5",
-        "timestamp" : "2024-05-20T12:15:56+10:00",
+        "identifier" : "urn:uuid:ba978e3d-9e58-46ed-9c36-2701c6a692a5",
+        "timestamp" : "2024-05-20T17:02:05+10:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{

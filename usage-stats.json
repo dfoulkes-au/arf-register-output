@@ -2,6 +2,7 @@
   "package": "fhir.arfregister",
   "version": "0.1.1",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "AUS",
   "extensions": [],
   "profiles": {
     "AllergyIntolerance": [

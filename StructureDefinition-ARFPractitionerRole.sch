@@ -10,12 +10,6 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
-    <sch:title>f:PractitionerRole</sch:title>
-    <sch:rule context="f:PractitionerRole">
-      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>f:PractitionerRole/f:availableTime/f:availableStartTime</sch:title>
     <sch:rule context="f:PractitionerRole/f:availableTime/f:availableStartTime">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org.au/fhir/StructureDefinition/au-timezone']) &lt;= 1">extension with URL = 'http://hl7.org.au/fhir/StructureDefinition/au-timezone': maximum cardinality of 'extension' is 1</sch:assert>
