@@ -1,20 +1,20 @@
 ARFRegisterIG : Validation Results
 =========================================
 
-err = 21, warn = 21, info = 3
+err = 23, warn = 24, info = 3
 IG Publisher Version: 1.6.7 Out of date - current version is 1.6.8
-Generated Tue May 21 11:56:27 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
+Generated Tue May 21 16:49:44 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 1 / 4 / 0
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy : 3 / 2 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\CarePlan-MikePondCarePlan : 1 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-MikePondCondition : 3 / 4 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationRequest-BicillinMedicationRequest : 10 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationStatement-BicillinMedicationStatement : 2 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationStatement-BicillinMedicationStatement : 3 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 2 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-MikePondPatient : 2 / 1 / 2
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 0 / 2
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 1 / 0 / 2
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFAllergy : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCarePlan : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 0 / 1
@@ -65,15 +65,20 @@ ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication
 == fsh-generated\resources\MedicationStatement-BicillinMedicationStatement.json ==
 ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
 ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.1.1), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.dosage[0]: Constraint failed: au-core-mst-03: 'If present, the dosage shall at least have text or patient instructions' (defined in http://hl7.org.au/fhir/core/StructureDefinition/au-core-medicationstatement)
 == fsh-generated\resources\Organization-VeryRemoteClinic.json ==
+WARNING: Organization/VeryRemoteClinic: Organization.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier
+WARNING: Organization/VeryRemoteClinic: Organization.address[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-address, http://hl7.org/fhir/StructureDefinition/Address
 == fsh-generated\resources\Patient-MikePondPatient.json ==
 INFORMATION: Patient/MikePondPatient: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated
 WARNING: Patient/MikePondPatient: Patient.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-ihi, http://hl7.org/fhir/StructureDefinition/Identifier
 ERROR: Patient/MikePondPatient: Patient.managingOrganization: Unable to resolve resource with reference 'RemoteClinic'
 ERROR: Patient.text.div: Hyperlink 'RemoteClinic' at 'div/table/tr/td/ul/li/a' for 'RemoteClinic' does not resolve
 == fsh-generated\resources\Practitioner-DoctorPayne.json ==
+WARNING: Practitioner/DoctorPayne: Practitioner.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpii, http://hl7.org/fhir/StructureDefinition/Identifier
 == fsh-generated\resources\PractitionerRole-DoctorPayneRole1.json ==
 INFORMATION: PractitionerRole/DoctorPayneRole1: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitionerRole|0.1.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: PractitionerRole/DoctorPayneRole1: PractitionerRole: Slice 'PractitionerRole.identifier:medicareProvider': a matching slice is required, but not found (from http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitionerRole|0.1.1). Note that other slices are allowed in addition to this required slice
 == fsh-generated\resources\StructureDefinition-ARFAllergy.json ==
 == fsh-generated\resources\StructureDefinition-ARFCarePlan.json ==
 == fsh-generated\resources\StructureDefinition-ARFCondition.json ==

@@ -218,6 +218,9 @@
  <tr><td colspan="3"><b>ARFOrganisation</b></td></tr>
  <tr><td>Organization</td><td>(also see master files messages)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (hpio)</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (abn)</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (paio)</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>No equivalent in HL7 v2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>No equivalent in v2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>XON.1</td> </tr>
@@ -237,6 +240,9 @@
  <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (hpio)</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (abn)</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (paio)</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>.status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.name</td> </tr>
@@ -258,6 +264,9 @@
  <tr><td colspan="3"><b>ARFOrganisation</b></td></tr>
  <tr><td>Organization</td><td>Organization</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (hpio)</td><td>Identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (abn)</td><td>Identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier (paio)</td><td>Identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>./Status (however this concept in ServD more covers why the organization is active or not, could be delisted, deregistered, not operational yet) this could alternatively be derived from ./StartDate and ./EndDate and given a context date.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;type</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.PreferredName/Name</td> </tr>
@@ -297,7 +306,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 21, 2024 11:55+1000">2024-05-21</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 21, 2024 16:48+1000">2024-05-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
