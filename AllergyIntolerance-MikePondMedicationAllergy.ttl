@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/AllergyIntolerance/MikePondMedicationAllergy> a fhir:AllergyIntolerance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "MikePondMedicationAllergy"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy"^^xsd:anyURI ;
+       fhir:link <http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AllergyIntolerance</b><a name=\"MikePondMedicationAllergy\"> </a><a name=\"hcMikePondMedicationAllergy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceAllergyIntolerance &quot;MikePondMedicationAllergy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFAllergy.html\">ARFAllergy</a></p></div><p><b>clinicalStatus</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>verificationStatus</b>: confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#confirmed)</span></p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: Carboplatin <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#1907011000036106)</span></p><p><b>patient</b>: <a href=\"Patient-MikePondPatient.html\">Patient/MikePondPatient</a> &quot; POND&quot;</p><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td><td><b>Severity</b></td></tr><tr><td style=\"display: none\">*</td><td>Anaphylaxis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#39579001)</span></td><td>severe</td></tr></table></div>"
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [ fhir:v "medication"] ) ; # 
+  fhir:criticality [ fhir:v "high"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:1907011000036106 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1907011000036106" ] ;
+       fhir:display [ fhir:v "Carboplatin" ]
+     ] ) ;
+     fhir:text [ fhir:v "Carboplatin" ]
+  ] ; # 
+  fhir:patient [
+     fhir:link <http://fhir-arf-register.nardhc.org/Patient/MikePondPatient> ;
+     fhir:reference [ fhir:v "Patient/MikePondPatient" ]
+  ] ; # 
+  fhir:reaction ( [
+     fhir:manifestation ( [
+       fhir:coding ( [
+         a sct:39579001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "39579001" ] ;
+         fhir:display [ fhir:v "Anaphylaxis" ]
+       ] )
+     ] ) ;
+     fhir:severity [ fhir:v "severe" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

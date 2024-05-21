@@ -11,7 +11,7 @@
   <name value="ARFRegisterIG"/>
   <title value="Implementation Guide for ARF/RHD Register - AU"/>
   <status value="draft"/>
-  <date value="2024-05-20T17:01:27+10:00"/>
+  <date value="2024-05-21T11:55:01+10:00"/>
   <publisher value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
   <contact>
     <name value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
@@ -494,6 +494,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/ARFCarePlan"/>
+      </reference>
+      <name value="ARFCarePlan"/>
+      <description value="Profile of Careplan for patient with ARF."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/ARFCondition"/>
       </reference>
       <name value="ARFCondition"/>
@@ -568,6 +579,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/BicillinMedicationRequest"/>
+      </reference>
+      <name value="BicillinMedicationRequest"/>
+      <description value="Example of Medication Request (prescription) of Bicillin"/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/BicillinMedicationStatement"/>
+      </reference>
+      <name value="BicillinMedicationStatement"/>
+      <description value="Example of Medication statement of administered dose of Bicillin"/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationStatement"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Practitioner"/>
       </extension>
       <reference>
@@ -590,28 +623,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/JamesPondCondition"/>
-      </reference>
-      <name value="JamesPondCondition"/>
-      <description value="Example of ARF Condition for Patient."/>
-      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/JamesPondPatient"/>
-      </reference>
-      <name value="JamesPondPatient"/>
-      <description value="An example of a patient recorded in ARF register."/>
-      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -620,6 +631,50 @@
       <name value="Medication Codes for Acute Rheumatic Fever"/>
       <description value="Medication Codes for Acute Rheumatic Fever"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/MikePondCondition"/>
+      </reference>
+      <name value="MikePondCondition"/>
+      <description value="Example of ARF Condition for Patient."/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AllergyIntolerance"/>
+      </extension>
+      <reference>
+        <reference value="AllergyIntolerance/MikePondMedicationAllergy"/>
+      </reference>
+      <name value="MikePondMedicationAllergy"/>
+      <description value="Example of Medication Allergy for ARF Patient."/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/MikePondPatient"/>
+      </reference>
+      <name value="MikePondPatient"/>
+      <description value="An example of a patient recorded in ARF register."/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/MikePondCarePlan"/>
+      </reference>
+      <name value="Rheumatic fever care plan for patient Mike Pond"/>
+      <description value="Example of care plan for patient with ARF"/>
+      <exampleCanonical value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCarePlan"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -10,7 +10,7 @@
   "name" : "ARFRegisterIG",
   "title" : "Implementation Guide for ARF/RHD Register - AU",
   "status" : "draft",
-  "date" : "2024-05-20T17:01:27+10:00",
+  "date" : "2024-05-21T11:55:01+10:00",
   "publisher" : "D Foulkes - Northern Australia Regional Digital Health Collaborative",
   "contact" : [{
     "name" : "D Foulkes - Northern Australia Regional Digital Health Collaborative",
@@ -653,6 +653,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/ARFCarePlan"
+      },
+      "name" : "ARFCarePlan",
+      "description" : "Profile of Careplan for patient with ARF.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/ARFCondition"
       },
       "name" : "ARFCondition",
@@ -734,6 +746,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationRequest"
+      }],
+      "reference" : {
+        "reference" : "MedicationRequest/BicillinMedicationRequest"
+      },
+      "name" : "BicillinMedicationRequest",
+      "description" : "Example of Medication Request (prescription) of Bicillin",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/BicillinMedicationStatement"
+      },
+      "name" : "BicillinMedicationStatement",
+      "description" : "Example of Medication statement of administered dose of Bicillin",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationStatement"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Practitioner"
       }],
       "reference" : {
@@ -758,30 +794,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/JamesPondCondition"
-      },
-      "name" : "JamesPondCondition",
-      "description" : "Example of ARF Condition for Patient.",
-      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/JamesPondPatient"
-      },
-      "name" : "JamesPondPatient",
-      "description" : "An example of a patient recorded in ARF register.",
-      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -790,6 +802,54 @@
       "name" : "Medication Codes for Acute Rheumatic Fever",
       "description" : "Medication Codes for Acute Rheumatic Fever",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/MikePondCondition"
+      },
+      "name" : "MikePondCondition",
+      "description" : "Example of ARF Condition for Patient.",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AllergyIntolerance"
+      }],
+      "reference" : {
+        "reference" : "AllergyIntolerance/MikePondMedicationAllergy"
+      },
+      "name" : "MikePondMedicationAllergy",
+      "description" : "Example of Medication Allergy for ARF Patient.",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/MikePondPatient"
+      },
+      "name" : "MikePondPatient",
+      "description" : "An example of a patient recorded in ARF register.",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CarePlan"
+      }],
+      "reference" : {
+        "reference" : "CarePlan/MikePondCarePlan"
+      },
+      "name" : "Rheumatic fever care plan for patient Mike Pond",
+      "description" : "Example of care plan for patient with ARF",
+      "exampleCanonical" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCarePlan"
     },
     {
       "extension" : [{

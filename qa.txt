@@ -1,20 +1,25 @@
 ARFRegisterIG : Validation Results
 =========================================
 
-err = 5, warn = 22, info = 3
-IG Publisher Version: 1.6.7
-Generated Mon May 20 17:03:13 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
+err = 21, warn = 21, info = 3
+IG Publisher Version: 1.6.7 Out of date - current version is 1.6.8
+Generated Tue May 21 11:56:27 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.1 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 1 / 4 / 0
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-JamesPondCondition : 3 / 4 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy : 3 / 2 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\CarePlan-MikePondCarePlan : 1 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-MikePondCondition : 3 / 4 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationRequest-BicillinMedicationRequest : 10 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationStatement-BicillinMedicationStatement : 2 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-JamesPondPatient : 2 / 1 / 2
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-MikePondPatient : 2 / 1 / 2
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 0 / 2
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFAllergy : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFAllergy : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCarePlan : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 1 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 1 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFOrganisation : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPatient : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPractitioner : 0 / 0 / 1
@@ -24,36 +29,56 @@ Generated Mon May 20 17:03:13 AEST 2024. FHIR version 4.0.1 for fhir.arfregister
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ValueSet-arf-severity-vs : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: C:\Dev\fsh\arf-register-fsh\output\Patient-JamesPondPatient.html#/html/body/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 171, column 677: The link 'RemoteClinic' for "RemoteClinic" cannot be resolved
+ERROR: C:\Dev\fsh\arf-register-fsh\output\Patient-MikePondPatient.html#/html/body/div/div/div/div/div/div/table/tr/td/ul/li/a at Line 171, column 676: The link 'RemoteClinic' for "RemoteClinic" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated\resources\Condition-JamesPondCondition.json ==
-WARNING: Condition/JamesPondCondition: Condition.clinicalStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: Condition/JamesPondCondition: Condition.clinicalStatus: None of the codings provided are in the value set 'Condition Clinical Status Codes' (http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
-WARNING: Condition/JamesPondCondition: Condition.verificationStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: Condition/JamesPondCondition: Condition.verificationStatus: None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)
-WARNING: Condition/JamesPondCondition: Condition.category[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: Condition/JamesPondCondition: Condition.severity.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: Condition/JamesPondCondition: Condition.severity: None of the codings provided are in the value set 'Acute Rheumatic Fever Condition Severity' (http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs|0.1.1), and a coding from this value set is required) (codes = null#moderate)
+== fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy.json ==
+WARNING: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.clinicalStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.clinicalStatus: None of the codings provided are in the value set 'AllergyIntolerance Clinical Status Codes' (http://hl7.org/fhir/ValueSet/allergyintolerance-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
+WARNING: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.verificationStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.verificationStatus: None of the codings provided are in the value set 'AllergyIntolerance Verification Status Codes' (http://hl7.org/fhir/ValueSet/allergyintolerance-verification|4.0.1), and a coding from this value set is required) (codes = null#confirmed)
+ERROR: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.code.coding[0].code: Unknown code '1907011000036106' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
+== fsh-generated\resources\CarePlan-MikePondCarePlan.json ==
+ERROR: CarePlan/MikePondCarePlan: CarePlan.identifier[0].type.coding[0].code: Unknown code 'LPN' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '4.0.0'
+== fsh-generated\resources\Condition-MikePondCondition.json ==
+WARNING: Condition/MikePondCondition: Condition.clinicalStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/MikePondCondition: Condition.clinicalStatus: None of the codings provided are in the value set 'Condition Clinical Status Codes' (http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
+WARNING: Condition/MikePondCondition: Condition.verificationStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/MikePondCondition: Condition.verificationStatus: None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)
+WARNING: Condition/MikePondCondition: Condition.category[0].coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: Condition/MikePondCondition: Condition.severity.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/MikePondCondition: Condition.severity: None of the codings provided are in the value set 'Acute Rheumatic Fever Condition Severity' (http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs|0.1.1), and a coding from this value set is required) (codes = null#moderate)
 == fsh-generated\resources\ImplementationGuide-fhir.arfregister.json ==
+== fsh-generated\resources\MedicationRequest-BicillinMedicationRequest.json ==
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0]: Unable to find a match for the specified profile among choices: ; [http://hl7.org/fhir/StructureDefinition/Identifier, http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier, http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier]
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0].type.coding[0].code: Unknown code 'LPN' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '4.0.0' (validating against http://hl7.org/fhir/StructureDefinition/Identifier|4.0.1 [Identifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0]: Identifier.assigner: minimum required = 1, but only found 0 (from http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier|4.1.0) (validating against http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier|4.1.0 [AUETPPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0].type: The pattern [system http://terminology.hl7.org.au/CodeSystem/v2-0203, code ETP, and display 'null'] defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier|4.1.0 not found. Issues: [ValidationMessage[level=ERROR,type=VALUE,location=MedicationRequest.identifier[0].type.coding.system,message=Value is 'http://terminology.hl7.org/CodeSystem/v2-0203' but must be 'http://terminology.hl7.org.au/CodeSystem/v2-0203'], ValidationMessage[level=ERROR,type=VALUE,location=MedicationRequest.identifier[0].type.coding.code,message=Value is 'LPN' but must be 'ETP']] (validating against http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier|4.1.0 [AUETPPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0].type.coding[0].code: Unknown code 'LPN' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '4.0.0' (validating against http://hl7.org.au/fhir/StructureDefinition/au-etpprescriptionidentifier|4.1.0 [AUETPPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0]: Identifier.assigner: minimum required = 1, but only found 0 (from http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier|4.1.0) (validating against http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier|4.1.0 [AULocalPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0].type: The pattern [system http://terminology.hl7.org.au/CodeSystem/v2-0203, code LPN, and display 'null'] defined in the profile http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier|4.1.0 not found. Issues: [ValidationMessage[level=ERROR,type=VALUE,location=MedicationRequest.identifier[0].type.coding.system,message=Value is 'http://terminology.hl7.org/CodeSystem/v2-0203' but must be 'http://terminology.hl7.org.au/CodeSystem/v2-0203']] (validating against http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier|4.1.0 [AULocalPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.identifier[0].type.coding[0].code: Unknown code 'LPN' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0203' version '4.0.0' (validating against http://hl7.org.au/fhir/StructureDefinition/au-localprescriptionidentifier|4.1.0 [AULocalPrescriptionIdentifier])
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.1.1), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+== fsh-generated\resources\MedicationStatement-BicillinMedicationStatement.json ==
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.1.1), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
 == fsh-generated\resources\Organization-VeryRemoteClinic.json ==
-== fsh-generated\resources\Patient-JamesPondPatient.json ==
-INFORMATION: Patient/JamesPondPatient: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated
-WARNING: Patient/JamesPondPatient: Patient.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-ihi, http://hl7.org/fhir/StructureDefinition/Identifier
-ERROR: Patient/JamesPondPatient: Patient.managingOrganization: Unable to resolve resource with reference 'RemoteClinic'
+== fsh-generated\resources\Patient-MikePondPatient.json ==
+INFORMATION: Patient/MikePondPatient: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated
+WARNING: Patient/MikePondPatient: Patient.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-ihi, http://hl7.org/fhir/StructureDefinition/Identifier
+ERROR: Patient/MikePondPatient: Patient.managingOrganization: Unable to resolve resource with reference 'RemoteClinic'
 ERROR: Patient.text.div: Hyperlink 'RemoteClinic' at 'div/table/tr/td/ul/li/a' for 'RemoteClinic' does not resolve
 == fsh-generated\resources\Practitioner-DoctorPayne.json ==
 == fsh-generated\resources\PractitionerRole-DoctorPayneRole1.json ==
 INFORMATION: PractitionerRole/DoctorPayneRole1: PractitionerRole.identifier[0]: This element does not match any known slice defined in the profile http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitionerRole|0.1.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated\resources\StructureDefinition-ARFAllergy.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ARFCarePlan.json ==
 == fsh-generated\resources\StructureDefinition-ARFCondition.json ==
 == fsh-generated\resources\StructureDefinition-ARFMedicationRequest.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-ARFMedicationStatement.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationStatement'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-ARFOrganisation.json ==
 == fsh-generated\resources\StructureDefinition-ARFPatient.json ==
 == fsh-generated\resources\StructureDefinition-ARFPractitioner.json ==

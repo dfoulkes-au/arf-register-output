@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir-arf-register.nardhc.org/MedicationRequest/BicillinMedicationRequest> a fhir:MedicationRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BicillinMedicationRequest"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest"^^xsd:anyURI ;
+       fhir:link <http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b><a name=\"BicillinMedicationRequest\"> </a><a name=\"hcBicillinMedicationRequest\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceMedicationRequest &quot;BicillinMedicationRequest&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFMedicationRequest.html\">ARFMedicationRequest</a></p></div><p><b>identifier</b>: LPN/1234567890</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>medication</b>: Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#1276211000168102)</span></p><p><b>subject</b>: <a href=\"Patient-MikePondPatient.html\">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>authoredOn</b>: 2023-10-01</p><p><b>requester</b>: <a href=\"PractitionerRole-DoctorPayneRole1.html\">PractitionerRole/DoctorPayneRole1</a></p><p><b>reasonCode</b>: Secondary prophylaxis for ARF/RHD <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><h3>DosageInstructions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Timing</b></td></tr><tr><td style=\"display: none\">*</td><td>Bicillin injection every 28 days</td><td>Once per 4-5 weeks</td></tr></table><blockquote><p><b>dispenseRequest</b></p><h3>DispenseIntervals</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Value</b></td><td><b>Unit</b></td><td><b>System</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>4</td><td>week</td><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-ucum.html\">Unified Code for Units of Measure (UCUM)</a></td><td>wk</td></tr></table><p><b>validityPeriod</b>: 2023-10-01 --&gt; 2024-10-01</p></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "LPN" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://veryremoteclinic.com.au/id/prescription/localsystem"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1234567890" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "plan"] ; # 
+  fhir:medication [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a sct:1276211000168102 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1276211000168102" ] ;
+       fhir:display [ fhir:v "Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir-arf-register.nardhc.org/Patient/MikePondPatient> ;
+     fhir:reference [ fhir:v "Patient/MikePondPatient" ]
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2023-10-01"^^xsd:date] ; # 
+  fhir:requester [
+     fhir:link <http://fhir-arf-register.nardhc.org/PractitionerRole/DoctorPayneRole1> ;
+     fhir:reference [ fhir:v "PractitionerRole/DoctorPayneRole1" ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:text [ fhir:v "Secondary prophylaxis for ARF/RHD" ]
+  ] ) ; # 
+  fhir:dosageInstruction ( [
+     fhir:text [ fhir:v "Bicillin injection every 28 days" ] ;
+     fhir:timing [
+       fhir:repeat [
+         fhir:frequency [ fhir:v "1"^^xsd:positiveInteger ] ;
+         fhir:period [ fhir:v "4"^^xsd:decimal ] ;
+         fhir:periodMax [ fhir:v "5"^^xsd:decimal ] ;
+         fhir:periodUnit [ fhir:v "wk" ]
+       ]
+     ]
+  ] ) ; # 
+  fhir:dispenseRequest [
+     fhir:dispenseInterval [
+       fhir:value [ fhir:v "4"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "week" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "wk" ]
+     ] ;
+     fhir:validityPeriod [
+       fhir:start [ fhir:v "2023-10-01"^^xsd:date ] ;
+       fhir:end [ fhir:v "2024-10-01"^^xsd:date ]
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

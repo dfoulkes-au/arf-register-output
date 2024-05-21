@@ -49,8 +49,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
@@ -125,6 +125,90 @@
       "uses" : {
       },
       "StructureDefinition-ARFAllergy.html" : "ARFAllergy"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -236,14 +320,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
+      "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan",
+      "StructureDefinition-ARFCondition.html" : "ARFCondition",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
       "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
       "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFCondition.html" : "ARFCondition",
-      "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -288,6 +373,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan",
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
       "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
     },
@@ -412,6 +498,20 @@
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
       "version" : "4.0.1",
       "status" : "draft",
@@ -452,6 +552,20 @@
       "uses" : {
       },
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
     },
     {
       "url" : "http://terminology.hl7.org.au/ValueSet/contact-purpose",
@@ -632,8 +746,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10069"],
       "uses" : {
       },
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient"
+      "StructureDefinition-ARFPatient.html" : "ARFPatient",
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3",

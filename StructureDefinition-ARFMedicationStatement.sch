@@ -13,7 +13,6 @@
     <sch:title>f:MedicationStatement</sch:title>
     <sch:rule context="f:MedicationStatement">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org.au/fhir/StructureDefinition/medication-long-term']) &lt;= 1">extension with URL = 'http://hl7.org.au/fhir/StructureDefinition/medication-long-term': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:dateAsserted) &gt;= 1">dateAsserted: minimum cardinality of 'dateAsserted' is 1</sch:assert>
       <sch:assert test="count(f:dosage) &gt;= 1">dosage: minimum cardinality of 'dosage' is 1</sch:assert>
       <sch:assert test="count(f:dosage) &lt;= 1">dosage: maximum cardinality of 'dosage' is 1</sch:assert>

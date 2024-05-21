@@ -11,6 +11,12 @@
         "title": "ARFAllergy"
       }
     ],
+    "CarePlan": [
+      {
+        "url": "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCarePlan",
+        "title": "ARFCarePlan"
+      }
+    ],
     "Condition": [
       {
         "url": "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition",
