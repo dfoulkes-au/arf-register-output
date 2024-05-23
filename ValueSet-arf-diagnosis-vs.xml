@@ -10,7 +10,8 @@
   <name value="ARFDiagnosisCodeVS"/>
   <title value="Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"/>
   <status value="draft"/>
-  <date value="2024-05-23T14:45:45+10:00"/>
+  <experimental value="true"/>
+  <date value="2024-05-23T15:19:20+10:00"/>
   <publisher value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
   <contact>
     <name value="D Foulkes - Northern Australia Regional Digital Health Collaborative"/>
