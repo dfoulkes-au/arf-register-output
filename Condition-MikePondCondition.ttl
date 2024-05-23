@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"MikePondCondition\"> </a><a name=\"hcMikePondCondition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceCondition &quot;MikePondCondition&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFCondition.html\">ARFCondition</a></p></div><p><b>identifier</b>: <code>http://arf-register.nardhc.org/system/registration-id</code>/ARF1000123</p><p><b>clinicalStatus</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>verificationStatus</b>: confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#confirmed)</span></p><p><b>category</b>: problem-list-item <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#problem-list-item)</span></p><p><b>severity</b>: moderate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#moderate)</span></p><p><b>code</b>: Acute rheumatic fever <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#195528001)</span></p><p><b>subject</b>: <a href=\"Patient-MikePondPatient.html\">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>onset</b>: 1995-02-02</p><p><b>recordedDate</b>: 2023-01-30</p><p><b>recorder</b>: <a href=\"Practitioner-DoctorPayne.html\">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p><p><b>asserter</b>: <a href=\"Practitioner-DoctorPayne.html\">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"MikePondCondition\"> </a><a name=\"hcMikePondCondition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceCondition &quot;MikePondCondition&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ARFCondition.html\">ARFCondition</a></p></div><p><b>identifier</b>: <code>http://arf-register.nardhc.org/system/registration-id</code>/ARF1000123</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Problem List Item <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-condition-category.html\">Condition Category Codes</a>#problem-list-item)</span></p><p><b>severity</b>: Moderate severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#6736007)</span></p><p><b>code</b>: Acute rheumatic fever <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOWMED CT</a>#195528001)</span></p><p><b>subject</b>: <a href=\"Patient-MikePondPatient.html\">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>onset</b>: 1995-02-02</p><p><b>recordedDate</b>: 2023-01-30</p><p><b>recorder</b>: <a href=\"Practitioner-DoctorPayne.html\">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p><p><b>asserter</b>: <a href=\"Practitioner-DoctorPayne.html\">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p></div>"
   ] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://arf-register.nardhc.org/system/registration-id"^^xsd:anyURI ] ;
@@ -25,22 +25,31 @@
   ] ) ; # 
   fhir:clinicalStatus [
      fhir:coding ( [
-       fhir:code [ fhir:v "active" ]
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
      ] )
   ] ; # 
   fhir:verificationStatus [
      fhir:coding ( [
-       fhir:code [ fhir:v "confirmed" ]
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "confirmed" ] ;
+       fhir:display [ fhir:v "Confirmed" ]
      ] )
   ] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:code [ fhir:v "problem-list-item" ]
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "problem-list-item" ] ;
+       fhir:display [ fhir:v "Problem List Item" ]
      ] )
   ] ) ; # 
   fhir:severity [
      fhir:coding ( [
-       fhir:code [ fhir:v "moderate" ]
+       a sct:6736007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "6736007" ] ;
+       fhir:display [ fhir:v "Moderate severity" ]
      ] )
   ] ; # 
   fhir:code [

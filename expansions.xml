@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f15156f5-1bef-4297-baa5-b0d3b00e4201"/>
+  <id value="c3fdf101-bee4-4ab7-8d71-6a8fffb2c71c"/>
   <meta>
-    <lastUpdated value="2024-05-21T16:48:43.131+10:00"/>
+    <lastUpdated value="2024-05-23T13:27:21.833+10:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,7 +13,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb. 2024</p>
             <p>This value set contains 2 concepts.</p>
             <table class="codes">
               <tr>
@@ -51,7 +51,7 @@
         <name value="ARFDiagnosisCodeVS"/>
         <title value="Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"/>
         <status value="draft"/>
-        <date value="2024-05-21T16:48:43+10:00"/>
+        <date value="2024-05-23T13:27:21+10:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -60,8 +60,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f223e858-bf94-494b-9fef-d522bac2c642"/>
-          <timestamp value="2024-05-21T16:49:08+10:00"/>
+          <identifier value="urn:uuid:e1d7f5cb-200e-4265-bb29-191507a085f6"/>
+          <timestamp value="2024-05-23T13:27:59+10:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -109,7 +109,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb. 2024</p>
             <p>This value set contains 0 concepts.</p>
             <table class="codes">
               <tr>
@@ -131,7 +131,7 @@
         <name value="ARFMedicationCodeVS"/>
         <title value="Medication Codes for Acute Rheumatic Fever"/>
         <status value="draft"/>
-        <date value="2024-05-21T16:48:43+10:00"/>
+        <date value="2024-05-23T13:27:21+10:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -140,8 +140,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0351ca93-61e6-410b-934b-7dc55917926d"/>
-          <timestamp value="2024-05-21T16:49:08+10:00"/>
+          <identifier value="urn:uuid:ac88d52a-6ce9-4298-aa81-54913aae4778"/>
+          <timestamp value="2024-05-23T13:27:59+10:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -179,7 +179,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb. 2024</p>
             <p>This value set contains 5 concepts.</p>
             <table class="codes">
               <tr>
@@ -241,7 +241,7 @@
         <name value="ARFSeverityVS"/>
         <title value="Acute Rheumatic Fever Condition Severity"/>
         <status value="draft"/>
-        <date value="2024-05-21T16:48:43+10:00"/>
+        <date value="2024-05-23T13:27:21+10:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -250,8 +250,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9db5a894-1cc1-4219-993f-d9182a459723"/>
-          <timestamp value="2024-05-21T16:49:08+10:00"/>
+          <identifier value="urn:uuid:3b6a1697-0ea3-43cb-acd5-523485144db0"/>
+          <timestamp value="2024-05-23T13:27:59+10:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>

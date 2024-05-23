@@ -6,13 +6,13 @@
     <profile value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCarePlan"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="MikePondCarePlan"> </a><a name="hcMikePondCarePlan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCarePlan &quot;MikePondCarePlan&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFCarePlan.html">ARFCarePlan</a></p></div><p><b>identifier</b>: LPN/987654321</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>title</b>: Rheumatic fever care plan for patient Mike Pond</p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>period</b>: 2023-10-01 --&gt; 2024-10-01</p><p><b>created</b>: 2023-10-01</p><p><b>author</b>: <a href="PractitionerRole-DoctorPayneRole1.html">PractitionerRole/DoctorPayneRole1</a></p><h3>Activities</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest/BicillinMedicationRequest</a></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan</b><a name="MikePondCarePlan"> </a><a name="hcMikePondCarePlan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCarePlan &quot;MikePondCarePlan&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFCarePlan.html">ARFCarePlan</a></p></div><p><b>identifier</b>: Local Registry ID/987654321</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>title</b>: Rheumatic fever care plan for patient Mike Pond</p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>period</b>: 2023-10-01 --&gt; 2024-10-01</p><p><b>created</b>: 2023-10-01</p><p><b>author</b>: <a href="PractitionerRole-DoctorPayneRole1.html">PractitionerRole/DoctorPayneRole1</a></p><h3>Activities</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest/BicillinMedicationRequest</a></td></tr></table></div>
   </text>
   <identifier>
     <type>
       <coding>
         <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-        <code value="LPN"/>
+        <code value="LR"/>
       </coding>
     </type>
     <system value="http://arfregister.example.au/id/registerid/localsystem"/>

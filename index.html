@@ -149,7 +149,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2024-05-21
+            as of 2024-05-23
           
         
       </td>
@@ -220,9 +220,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This occurs after a patient has received a diagnosis (or suspected diagnosis),  and involves registering a patient for the first time on the registry.   Typically this would be achieved by posting a FHIR bundle containing and instance of each of the following resources:</p>
 
 <ul>
-  <li><a href="StructureDefinition-ARFPatient.html">ARF Patient</a> - patient demographic information</li>
-  <li><a href="StructureDefinition-ARFCondition.html">ARF Condition</a> - diagnosis and severity of ARF/RHD condition</li>
-  <li><a href="StructureDefinition-ARFAllergy.html">ARF Allergy</a> - any known medication allergies</li>
+  <li><a href="StructureDefinition-ARFPatient.html">ARF Patient</a> - patient demographic information  <a href="https://fhir-arf-register.nardhc.org/Patient-MikePondPatient.html">Example</a></li>
+  <li><a href="StructureDefinition-ARFCondition.html">ARF Condition</a> - diagnosis and severity of ARF/RHD condition <a href="https://fhir-arf-register.nardhc.org/Condition-MikePondCondition.html">Example</a></li>
+  <li><a href="StructureDefinition-ARFAllergy.html">ARF Allergy</a> - any known medication allergies <a href="https://fhir-arf-register.nardhc.org/AllergyIntolerance-MikePondMedicationAllergy.html">Example</a></li>
 </ul>
 
 <h4 id="create-careplan-and-prescribe-medication">Create CarePlan and Prescribe Medication</h4>
@@ -232,6 +232,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li><a href="StructureDefinition-ARFCarePlan.html">ARF CarePlan</a> - care plan outline and practitioners/providers responsible to deliver the care</li>
   <li><a href="StructureDefinition-ARFMedicationRequest.html">ARF MedicationRequest</a> - prescribed frequency and dosage of medication</li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFOrganisation.html">ARF Organisation</a> - health provider organisation responsible for CarePlan</li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitioner.html">ARF Practitioner</a> - practioner providing care for ARF patient</li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitionerRole.html">ARF PractionerRole</a> - practioner (medicare provider) role</li>
 </ul>
 
 <h4 id="record-medication-administration">Record Medication Administration</h4>
@@ -281,7 +284,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 21, 2024 16:48+1000">2024-05-21</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 23, 2024 13:27+1000">2024-05-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

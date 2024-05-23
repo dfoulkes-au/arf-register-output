@@ -10,9 +10,9 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-arf-severity-vs.html" : "Acute Rheumatic Fever Condition Severity",
+      "ValueSet-arf-diagnosis-vs.html" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions",
       "ValueSet-arf-medication-code-vs.html" : "Medication Codes for Acute Rheumatic Fever",
-      "ValueSet-arf-diagnosis-vs.html" : "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"
+      "ValueSet-arf-severity-vs.html" : "Acute Rheumatic Fever Condition Severity"
     }
   ]
 }

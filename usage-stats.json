@@ -94,6 +94,9 @@
     "http://hl7.org.au/fhir/StructureDefinition/subsidised-concurrent-supply": [
       "MedicationRequest"
     ],
+    "http://hl7.org.au/fhir/StructureDefinition/veteran-status": [
+      "Patient"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -109,14 +112,23 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/individual-genderIdentity": [
+      "Patient",
+      "Practitioner"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/individual-pronouns": [
+      "Patient",
+      "Practitioner"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender": [
+      "Patient",
+      "Practitioner"
+    ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthTime": [
       "Patient.birthDate"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity": [
-      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired": [
       "Patient"
