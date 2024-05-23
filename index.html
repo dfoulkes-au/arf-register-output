@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Home - Implementation Guide for ARF/RHD Register - AU v0.1.1</title>
+    <title>Home - Implementation Guide for ARF/RHD Register - AU v0.1.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Implementation Guide for ARF/RHD Register - AU</span>
             <br/>
-            <span style="display:inline-block;">0.1.1 - ci-build
+            <span style="display:inline-block;">0.1.3 - ci-build
 
 
 
@@ -118,7 +118,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -133,7 +133,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.1.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister|0.1.1"/></span>
+      <span class="copy-text">0.1.3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister|0.1.3"/></span>
       </td>
     </tr>
 
@@ -220,9 +220,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This occurs after a patient has received a diagnosis (or suspected diagnosis),  and involves registering a patient for the first time on the registry.   Typically this would be achieved by posting a FHIR bundle containing and instance of each of the following resources:</p>
 
 <ul>
-  <li><a href="StructureDefinition-ARFPatient.html">ARF Patient</a> - patient demographic information  <a href="https://fhir-arf-register.nardhc.org/Patient-MikePondPatient.html">Example</a></li>
-  <li><a href="StructureDefinition-ARFCondition.html">ARF Condition</a> - diagnosis and severity of ARF/RHD condition <a href="https://fhir-arf-register.nardhc.org/Condition-MikePondCondition.html">Example</a></li>
-  <li><a href="StructureDefinition-ARFAllergy.html">ARF Allergy</a> - any known medication allergies <a href="https://fhir-arf-register.nardhc.org/AllergyIntolerance-MikePondMedicationAllergy.html">Example</a></li>
+  <li><a href="StructureDefinition-ARFPatient.html">ARF Patient</a> - patient demographic information  <a href="https://fhir-arf-register.nardhc.org/Patient-MikePondPatient.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/Patient-MikePondPatient.json.html">JSON</a></li>
+  <li><a href="StructureDefinition-ARFCondition.html">ARF Condition</a> - diagnosis and severity of ARF/RHD condition <a href="https://fhir-arf-register.nardhc.org/Condition-MikePondCondition.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/Condition-MikePondCondition.json.html">JSON</a></li>
+  <li><a href="StructureDefinition-ARFAllergy.html">ARF Allergy</a> - any known medication allergies <a href="https://fhir-arf-register.nardhc.org/AllergyIntolerance-MikePondMedicationAllergy.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/AllergyIntolerance-MikePondMedicationAllergy.json.html">JSON</a></li>
 </ul>
 
 <h4 id="create-careplan-and-prescribe-medication">Create CarePlan and Prescribe Medication</h4>
@@ -230,11 +230,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This workflow may take place for a newly registered patient, or it be used to record a careplan/prescription for a subsequent or updated care episode.  This process creates (or updates) a Care Plan and a Medication Request resouce (see profiles below) describing frequency and dosage of medications and specifying which Organization(s) and Practitioners will be responsible for the patient care.  Where new information is available (eg. updated phone numbers or disease severity), this process may also optionally be used to update the Patient, Condition or Allergy resources created by the Patient Registration workflow.</p>
 
 <ul>
-  <li><a href="StructureDefinition-ARFCarePlan.html">ARF CarePlan</a> - care plan outline and practitioners/providers responsible to deliver the care</li>
-  <li><a href="StructureDefinition-ARFMedicationRequest.html">ARF MedicationRequest</a> - prescribed frequency and dosage of medication</li>
-  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFOrganisation.html">ARF Organisation</a> - health provider organisation responsible for CarePlan</li>
-  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitioner.html">ARF Practitioner</a> - practioner providing care for ARF patient</li>
-  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitionerRole.html">ARF PractionerRole</a> - practioner (medicare provider) role</li>
+  <li><a href="StructureDefinition-ARFCarePlan.html">ARF CarePlan</a> - care plan outline and practitioners/providers responsible to deliver the care <a href="https://fhir-arf-register.nardhc.org/CarePlan-MikePondCarePlan.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/CarePlan-MikePondCarePlan.json.html">JSON</a></li>
+  <li><a href="StructureDefinition-ARFMedicationRequest.html">ARF MedicationRequest</a> - prescribed frequency and dosage of medication <a href="https://fhir-arf-register.nardhc.org/MedicationRequest-BicillinMedicationRequest.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/MedicationRequest-BicillinMedicationRequest.json.html">JSON</a></li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFOrganisation.html">ARF Organisation</a> - health provider organisation responsible for CarePlan <a href="https://fhir-arf-register.nardhc.org/Organization-VeryRemoteClinic.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/Organization-VeryRemoteClinic.json.html">JSON</a></li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitioner.html">ARF Practitioner</a> - practioner providing care for ARF patient <a href="https://fhir-arf-register.nardhc.org/Practitioner-DoctorPayne.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/Practitioner-DoctorPayne.json.html">JSON</a></li>
+  <li><a href="https://fhir-arf-register.nardhc.org/StructureDefinition-ARFPractitionerRole.html">ARF PractionerRole</a> - practioner (medicare provider) role <a href="https://fhir-arf-register.nardhc.org/PractitionerRole-DoctorPayneRole1.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/PractitionerRole-DoctorPayneRole1.json.html">JSON</a></li>
 </ul>
 
 <h4 id="record-medication-administration">Record Medication Administration</h4>
@@ -242,7 +242,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This workflow takes place when a specific instance of the medication request has been administered to the patient.  It creates a single Medication Statement resource recording the date, provider, dosage, route etc. of the medication administration.   This workflow may also optionally update the CarePlan with a different practitioner/provider and or the patient contact details.</p>
 
 <ul>
-  <li><a href="StructureDefinition-ARFMedicationStatement.html">ARF MedicationStatement</a> - administered time, dosage, route of medication</li>
+  <li><a href="StructureDefinition-ARFMedicationStatement.html">ARF MedicationStatement</a> - administered time, dosage, route of medication <a href="https://fhir-arf-register.nardhc.org/MedicationStatement-BicillinMedicationStatement.html">Example</a> <a href="https://fhir-arf-register.nardhc.org/MedicationStatement-BicillinMedicationStatement.json.html">JSON</a></li>
 </ul>
 
 <h4 id="query-status-of-the-patient">Query Status of the Patient</h4>
@@ -284,7 +284,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 23, 2024 13:27+1000">2024-05-23</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 23, 2024 13:42+1000">2024-05-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

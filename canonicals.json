@@ -3,91 +3,91 @@
     "id" : "fhir.arfregister",
     "type" : "ImplementationGuide",
     "url" : "http://fhir-arf-register.nardhc.org/ImplementationGuide/fhir.arfregister",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFRegisterIG"
   },
   {
     "id" : "ARFAllergy",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFAllergy",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFAllergy"
   },
   {
     "id" : "ARFCarePlan",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCarePlan",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFCarePlan"
   },
   {
     "id" : "ARFCondition",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFCondition",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFCondition"
   },
   {
     "id" : "ARFMedicationRequest",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFMedicationRequest"
   },
   {
     "id" : "ARFMedicationStatement",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationStatement",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFMedicationStatement"
   },
   {
     "id" : "ARFOrganisation",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFOrganisation"
   },
   {
     "id" : "ARFPatient",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFPatient"
   },
   {
     "id" : "ARFPractitioner",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitioner",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFPractitioner"
   },
   {
     "id" : "ARFPractitionerRole",
     "type" : "StructureDefinition",
     "url" : "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitionerRole",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFPractitionerRole"
   },
   {
     "id" : "arf-diagnosis-vs",
     "type" : "ValueSet",
     "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFDiagnosisCodeVS"
   },
   {
     "id" : "arf-medication-code-vs",
     "type" : "ValueSet",
     "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFMedicationCodeVS"
   },
   {
     "id" : "arf-severity-vs",
     "type" : "ValueSet",
     "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "name" : "ARFSeverityVS"
   }
 ]
