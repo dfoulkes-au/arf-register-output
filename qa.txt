@@ -3,7 +3,7 @@ ARFRegisterIG : Validation Results
 
 err = 4, warn = 15, info = 2
 IG Publisher Version: 1.6.9 Out of date - current version is 1.6.10
-Generated Mon May 27 13:33:09 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.3 (canonical = http://fhir-arf-register.nardhc.org)
+Generated Thu May 30 15:45:00 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.3 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 0 / 4 / 0
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\CarePlan-MikePondCarePlan : 0 / 0 / 1
