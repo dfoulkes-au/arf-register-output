@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>BicillinMedicationStatement - Implementation Guide for ARF/RHD Register - AU v0.1.3</title>
+    <title>BicillinMedicationStatement - Implementation Guide for ARF/RHD Register - AU v0.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2.14"}
     h3,h4,h5,h6{--heading-prefix:"2.14"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -49,7 +50,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Implementation Guide for ARF/RHD Register - AU</span>
             <br/>
-            <span style="display:inline-block;">0.1.3 - ci-build
+            <span style="display:inline-block;">0.2.0 - ci-build
 
 
 
@@ -111,7 +112,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -168,7 +169,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement </b><a name="BicillinMedicationStatement"> </a><a name="hcBicillinMedicationStatement"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceMedicationStatement &quot;BicillinMedicationStatement&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFMedicationStatement.html">ARFMedicationStatement</a></p></div><p><b>basedOn</b>: <a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest/BicillinMedicationRequest</a></p><p><b>status</b>: completed</p><p><b>medication</b>: Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1276211000168102)</span></p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>effective</b>: 2024-05-01</p><p><b>dateAsserted</b>: 2024-05-01</p><p><b>informationSource</b>: <a href="Practitioner-DoctorPayne.html">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p><blockquote><p><b>dosage</b></p><p><b>text</b>: Mike Pond booked appointment for 2pm 27-05-2024</p><p><b>patientInstruction</b>: Appointment for next Bicillin injection 2pm on 27-05-2024.  Please call if you are unable to attend.</p><p><b>timing</b>: Once per4-5 weeks</p><p><b>route</b>: Intramuscular route <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#78421000)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote></div>
+  <div><p class="res-header-id"><b>Generated Narrative: MedicationStatement BicillinMedicationStatement</b></p><a name="BicillinMedicationStatement"> </a><a name="hcBicillinMedicationStatement"> </a><a name="BicillinMedicationStatement-und"> </a><p><b>basedOn</b>: <a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest: identifier = Local Prescription Number; status = active; intent = plan; medication[x] = Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe; authoredOn = 2023-10-01; reasonCode = </a></p><p><b>status</b>: Completed</p><p><b>medication</b>: <span title="Codes:{http://snomed.info/sct 1276211000168102}">Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe</span></p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Mike Pond  Male, DoB: 1960-01-25 ( National unique individual identifier (use: official, ))</a></p><p><b>effective</b>: 2024-05-01</p><p><b>dateAsserted</b>: 2024-05-01</p><p><b>informationSource</b>: <a href="Practitioner-DoctorPayne.html">Practitioner Jane Payne </a></p><blockquote><p><b>dosage</b></p><p><b>text</b>: Mike Pond booked appointment for 2pm 27-05-2024</p><p><b>patientInstruction</b>: Appointment for next Bicillin injection 2pm on 27-05-2024.  Please call if you are unable to attend.</p><p><b>timing</b>: Once per 4-5 weeks</p><p><b>route</b>: <span title="Codes:{http://snomed.info/sct 78421000}">Intramuscular route</span></p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td>1016.6 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg = 'mg')</span></td></tr></table></blockquote></div>
 
   
 
@@ -193,7 +194,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 30, 2024 15:43+1000">2024-05-30</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 24, 2024 17:10+1000">2024-10-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -210,7 +211,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -221,7 +222,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

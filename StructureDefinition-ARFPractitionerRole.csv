@@ -48,7 +48,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "PractitionerRole.practitioner","PractitionerRole.practitioner","","","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitioner]]}
 ","Practitioner that is able to provide the defined services for the organization","Practitioner that is able to provide the defined services for the organization.","","","","","","","","","",,,,,"",,,,"PractitionerRole.practitioner",0,1,"au-core-prarol-01
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-au-core-prarol-01:At least a reference, identifier or display shall be present {reference.exists() or identifier.exists() or display.exists()}",".player"
+au-core-prarol-01:At least a reference, identifier or display shall be present, or, if neither is available, the Data Absent Reason extension shall be present {(reference.exists() or identifier.exists() or display.exists()) xor extension('http://hl7.org/fhir/StructureDefinition/data-absent-reason').exists()}",".player"
 "PractitionerRole.organization","PractitionerRole.organization","","","",0,1,"Y","","Y","Reference {[]} {[CanonicalType[http://fhir-arf-register.nardhc.org/StructureDefinition/ARFOrganisation]]}
 ","Organization where the roles are available","The organization where the Practitioner performs the roles associated.","","","","","","","","","",,,,,"",,,,"PractitionerRole.organization",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".scoper"
@@ -58,7 +58,7 @@ au-core-prarol-01:At least a reference, identifier or display shall be present {
 "PractitionerRole.specialty","PractitionerRole.specialty","","","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
 ","Specific specialty of the practitioner","Specific specialty of the practitioner.","","","","","","","","","",,"preferred","","https://healthterminologies.gov.au/fhir/ValueSet/clinical-specialty-1","",,,,"PractitionerRole.specialty",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","PRA-5",".player.HealthCareProvider[@classCode = 'PROV'].code","./Specialty"
-"PractitionerRole.location","PractitionerRole.location","","","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org.au/fhir/core/StructureDefinition/au-core-location]]}
+"PractitionerRole.location","PractitionerRole.location","","","",0,*,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location]]}
 ","The location(s) at which this practitioner provides care","The location(s) at which this practitioner provides care.","","","","","","","","","",,,,,"",,,,"PractitionerRole.location",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".performance.ActDefinitionOrEvent.ServiceDeliveryLocation[@classCode = 'SDLOC']","(ServD maps Practitioners and Organizations via another entity, so this concept is not available)<br/> However these are accessed via the Site.ServiceSite.ServiceSiteProvider record. (The Site has the location)","FiveWs.where[x]"
 "PractitionerRole.healthcareService","PractitionerRole.healthcareService","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/HealthcareService]]}

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>VeryRemoteClinic - Implementation Guide for ARF/RHD Register - AU v0.1.3</title>
+    <title>VeryRemoteClinic - Implementation Guide for ARF/RHD Register - AU v0.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2.21"}
     h3,h4,h5,h6{--heading-prefix:"2.21"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -49,7 +50,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Implementation Guide for ARF/RHD Register - AU</span>
             <br/>
-            <span style="display:inline-block;">0.1.3 - ci-build
+            <span style="display:inline-block;">0.2.0 - ci-build
 
 
 
@@ -111,7 +112,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -168,7 +169,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization </b><a name="VeryRemoteClinic"> </a><a name="hcVeryRemoteClinic"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceOrganization &quot;VeryRemoteClinic&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFOrganisation.html">ARFOrganisation</a></p></div><p><b>identifier</b>: National Organisation Identifier/8003621566684455 (use: official)</p><p><b>type</b>: Outpatient environment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#440655000)</span></p><p><b>name</b>: Very Remote Health Clinic</p><p><b>telecom</b>: <a href="tel:+61712345678">+61 7 12345678</a></p><p><b>address</b>: 2342 Main Road Coen QLD </p></div>
+  <div><p class="res-header-id"><b>Generated Narrative: Organization VeryRemoteClinic</b></p><a name="VeryRemoteClinic"> </a><a name="hcVeryRemoteClinic"> </a><a name="VeryRemoteClinic-und"> </a><p><b>identifier</b>: National Organisation Identifier/8003621566684455 (use: official, )</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 440655000}">Outpatient environment</span></p><p><b>name</b>: Very Remote Health Clinic</p><p><b>telecom</b>: <a href="tel:+61712345678">+61 7 12345678</a></p><p><b>address</b>: 2342 Main Road Coen QLD </p></div>
 
   
 
@@ -193,7 +194,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 30, 2024 15:43+1000">2024-05-30</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 24, 2024 17:10+1000">2024-10-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -210,7 +211,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -221,7 +222,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

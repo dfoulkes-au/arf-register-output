@@ -10,13 +10,13 @@
   fhir:id [ fhir:v "ARFPatient"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient\">Patient</a><a name=\"Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org.au/fhir/core/0.3.0-ballot/StructureDefinition-au-core-patient.html\">AUCorePatient</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> Slices for identifier<a name=\"Patient.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Content/Rules for all slices</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.identifier:ihi\" title=\"Slice ihi\">identifier:ihi</a><a name=\"Patient.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org.au/fhir/4.2.0-preview/StructureDefinition-au-ihi.html\" title=\"Identifier\">AUIHI(4.2.0-preview)</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Individual Healthcare Identifier (IHI)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.telecom\">telecom</a><a name=\"Patient.telecom\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A contact detail for the individual</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.deceased[x]\">deceased[x]</a><a name=\"Patient.deceased_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a><span style=\"opacity: 0.5\">, </span><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Indicates if the individual is deceased or not</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact\">contact</a><a name=\"Patient.contact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact.relationship\">relationship</a><a name=\"Patient.contact.relationship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The kind of relationship</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact.name\">name</a><a name=\"Patient.contact.name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A name associated with the contact person</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.generalPractitioner\">generalPractitioner</a><a name=\"Patient.generalPractitioner\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/organization.html\">Organization</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/practitioner.html\">Practitioner</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/practitionerrole.html\">PractitionerRole</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Patient's nominated primary care provider</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition ARFPatient</b></p><a name=\"ARFPatient\"> </a><a name=\"hcARFPatient\"> </a><a name=\"ARFPatient-en-AU\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient\">Patient</a><a name=\"Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org.au/fhir/core/1.0.0-ballot/StructureDefinition-au-core-patient.html\">AUCorePatient</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> Slices for identifier<a name=\"Patient.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Content/Rules for all slices</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.identifier:ihi\" title=\"Slice ihi\">identifier:ihi</a><a name=\"Patient.identifier.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org.au/fhir/4.2.2-ballot/StructureDefinition-au-ihi.html\" title=\"Identifier\">AUIHI(4.2.2-ballot)</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Individual Healthcare Identifier (IHI)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.telecom\">telecom</a><a name=\"Patient.telecom\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A contact detail for the individual</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.deceased[x]\">deceased[x]</a><a name=\"Patient.deceased_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a><span style=\"opacity: 0.5\">, </span><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Indicates if the individual is deceased or not</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact\">contact</a><a name=\"Patient.contact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact.relationship\">relationship</a><a name=\"Patient.contact.relationship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The kind of relationship</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.contact.name\">name</a><a name=\"Patient.contact.name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#HumanName\">HumanName</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A name associated with the contact person</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ARFPatient-definitions.html#Patient.generalPractitioner\">generalPractitioner</a><a name=\"Patient.generalPractitioner\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/organization.html\">Organization</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/practitioner.html\">Practitioner</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/practitionerrole.html\">PractitionerRole</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Patient's nominated primary care provider</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPatient"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.3"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "ARFPatient"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-30T15:43:42+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-24T17:10:08+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "D Foulkes - Northern Australia Regional Digital Health Collaborative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "D Foulkes - Northern Australia Regional Digital Health Collaborative" ] ;
@@ -147,7 +147,7 @@
          fhir:key [ fhir:v "inv-pat-1" ] ;
          fhir:severity [ fhir:v "warning" ] ;
          fhir:human [ fhir:v "Individual gender identity shall be a member of the Gender Identity Response value set if any codes within that value set can apply" ] ;
-         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-genderIdentity').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-genderIdentity').value.memberOf('https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1')" ] ;
+         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-genderIdentity').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-genderIdentity').all(extension('value').value.memberOf('https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1'))" ] ;
          fhir:source [
            fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org.au/fhir/StructureDefinition/au-patient>
@@ -156,7 +156,34 @@
          fhir:key [ fhir:v "inv-pat-2" ] ;
          fhir:severity [ fhir:v "warning" ] ;
          fhir:human [ fhir:v "Individual pronouns shall be a member of the Australian Pronouns value set if any codes within that value set can apply" ] ;
-         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-pronouns').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-pronouns').value.memberOf('https://healthterminologies.gov.au/fhir/ValueSet/australian-pronouns-1')" ] ;
+         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-pronouns').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-pronouns').all(extension('value').value.memberOf('https://healthterminologies.gov.au/fhir/ValueSet/australian-pronouns-1'))" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-patient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org.au/fhir/StructureDefinition/au-patient>
+         ]
+       ] [
+         fhir:key [ fhir:v "inv-pat-3" ] ;
+         fhir:severity [ fhir:v "warning" ] ;
+         fhir:human [ fhir:v "Recorded sex or gender type shall be a member of the AU Recorded Sex or Gender Type value set if any codes within that value set can apply" ] ;
+         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').extension('type').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').all(extension('type').value.memberOf('http://terminology.hl7.org.au/ValueSet/rsg-type'))" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-patient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org.au/fhir/StructureDefinition/au-patient>
+         ]
+       ] [
+         fhir:key [ fhir:v "inv-pat-4" ] ;
+         fhir:severity [ fhir:v "warning" ] ;
+         fhir:human [ fhir:v "Recorded sex or gender source document type shall be a member of the AU Recorded Sex or Gender (RSG) Source Document Type value set if any codes within that value set can apply" ] ;
+         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').extension('sourceDocument').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').all(extension('sourceDocument').value.memberOf('http://terminology.hl7.org.au/ValueSet/rsg-source-document-type'))" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-patient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org.au/fhir/StructureDefinition/au-patient>
+         ]
+       ] [
+         fhir:key [ fhir:v "inv-pat-5" ] ;
+         fhir:severity [ fhir:v "warning" ] ;
+         fhir:human [ fhir:v "Recorded sex or gender jurisdiction shall be a member of the Jurisdiction ValueSet - AU Extended value set if any codes within that value set can apply" ] ;
+         fhir:expression [ fhir:v "extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').extension('jurisdiction').empty() or extension('http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender').all(extension('jurisdiction').value.memberOf('http://terminology.hl7.org.au/ValueSet/jurisdiction-extended'))" ] ;
          fhir:source [
            fhir:v "http://hl7.org.au/fhir/StructureDefinition/au-patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org.au/fhir/StructureDefinition/au-patient>
@@ -164,9 +191,9 @@
        ] [
          fhir:key [ fhir:v "au-core-pat-01" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "At least one patient identifier shall be valid" ] ;
-         fhir:expression [ fhir:v "identifier.where(system.count() + value.count() >1).exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:identifier/f:system)" ] ;
+         fhir:human [ fhir:v "At least one patient identifier shall be valid, or if not available, the Data Absent Reason extension shall be present" ] ;
+         fhir:expression [ fhir:v "(identifier.where(system.count() + value.count() >1)).exists() xor identifier.extension('http://hl7.org/fhir/StructureDefinition/data-absent-reason').exists()" ] ;
+         fhir:xpath [ fhir:v "(exists(f:identifier/f:system) and exists(f:identifier/f:value)) and not(exists(f:identifier/f:extension[@url='http://hl7.org/fhir/StructureDefinition/data-absent-reason'])) or not(exists(f:identifier/f:system) and exists(f:identifier/f:value)) and exists(f:identifier/f:extension[@url='http://hl7.org/fhir/StructureDefinition/data-absent-reason'])" ] ;
          fhir:source [
            fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient>
@@ -174,9 +201,9 @@
        ] [
          fhir:key [ fhir:v "au-core-pat-02" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "At least one patient name shall have a family name" ] ;
-         fhir:expression [ fhir:v "name.family.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:name/f:family)" ] ;
+         fhir:human [ fhir:v "At least one patient name shall have a family name, or if not available, the Data Absent Reason extension shall be present" ] ;
+         fhir:expression [ fhir:v "name.family.exists() xor name.extension('http://hl7.org/fhir/StructureDefinition/data-absent-reason').exists()" ] ;
+         fhir:xpath [ fhir:v "(exists(f:name/f:family) and not(exists(f:name/f:extension[@url='http://hl7.org/fhir/StructureDefinition/data-absent-reason']))) or (not(exists(f:name/f:family)) and exists(f:name/f:extension[@url='http://hl7.org/fhir/StructureDefinition/data-absent-reason']))" ] ;
          fhir:source [
            fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient>
@@ -443,13 +470,11 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/patient-birthPlace>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -459,16 +484,39 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.extension:indigenousStatus" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.extension" ] ;
        fhir:sliceName [ fhir:v "indigenousStatus" ] ;
        fhir:short [ fhir:v "Indigenous status" ] ;
@@ -620,13 +668,11 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -636,7 +682,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -671,13 +716,11 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -687,13 +730,11 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.extension:dateOfArrival" ] ;
@@ -741,6 +782,31 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.extension:genderIdentity" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.extension" ] ;
        fhir:sliceName [ fhir:v "genderIdentity" ] ;
        fhir:short [ fhir:v "Gender identity shall be a member of the Gender Identity Response value set if any codes within that value set can apply" ] ;
@@ -784,6 +850,31 @@
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.extension:individualPronouns" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.extension" ] ;
        fhir:sliceName [ fhir:v "individualPronouns" ] ;
        fhir:short [ fhir:v "Pronouns shall be a member of the Australian Pronouns value set if any codes within that value set can apply" ] ;
@@ -829,8 +920,9 @@
        fhir:id [ fhir:v "Patient.extension:recordedSexOrGender" ] ;
        fhir:path [ fhir:v "Patient.extension" ] ;
        fhir:sliceName [ fhir:v "recordedSexOrGender" ] ;
-       fhir:short [ fhir:v "A recorded sex or gender property for the individual" ] ;
+       fhir:short [ fhir:v "Recorded sex or gender type shall be a member of the AU Recorded Sex or Gender Type value set if any codes within that value set can apply. Recorded sex or gender source document type shall be a member of the AU Recorded Sex or Gender (RSG) Source Document Type value set if any codes within that value set can apply. Recorded sex or gender jurisdiction shall be a member of the Jurisdiction - ValueSet AU Extended value set if any codes within that value set can apply" ] ;
        fhir:definition [ fhir:v "A sex or gender property for the individual from a document or other record" ] ;
+       fhir:comment [ fhir:v "Person Recorded Sex Or Gender type [AU Recorded Sex or Gender Type](http://hl7.org.au/fhir/4.2.2-ballot/ValueSet-rsg-type.html) ([extensible](http://hl7.org/fhir/R4/terminologies.html#extensible)). Person Recorded Sex Or Gender source document [AU Recorded Sex or Gender (RSG) Source Document Type](http://hl7.org.au/fhir/4.2.2-ballot/ValueSet-rsg-source-document-type.html) ([extensible](http://hl7.org/fhir/R4/terminologies.html#extensible)). Person Recorded Sex Or Gender jurisdiction [Jurisdiction ValueSet - AU Extended](http://hl7.org.au/fhir/4.2.2-ballot/ValueSet-au-jurisdiction-extended.html) ([extensible](http://hl7.org/fhir/R4/terminologies.html#extensible))." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -845,13 +937,12 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
+       fhir:condition ( [ fhir:v "inv-pat-3" ] [ fhir:v "inv-pat-4" ] [ fhir:v "inv-pat-5" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -861,7 +952,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -916,6 +1006,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.identifier" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.identifier" ] ;
        fhir:slicing [
          fhir:discriminator ( [
@@ -994,6 +1109,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.identifier:ihi" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.identifier" ] ;
        fhir:sliceName [ fhir:v "ihi" ] ;
        fhir:short [ fhir:v "Individual Healthcare Identifier (IHI)" ] ;
@@ -1069,6 +1209,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.identifier:medicare" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.identifier" ] ;
        fhir:sliceName [ fhir:v "medicare" ] ;
        fhir:short [ fhir:v "Medicare Card Number" ] ;
@@ -1117,6 +1282,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.identifier:dva" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.identifier" ] ;
        fhir:sliceName [ fhir:v "dva" ] ;
        fhir:short [ fhir:v "Department of Veterans' Affairs (DVA) Number" ] ;
@@ -1207,6 +1397,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.name" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.name" ] ;
        fhir:short [ fhir:v "A name associated with the patient" ] ;
        fhir:definition [ fhir:v "A name associated with the individual." ] ;
@@ -1222,7 +1437,7 @@
        fhir:type ( [
          fhir:code [ fhir:v "HumanName"^^xsd:anyURI ]
        ] ) ;
-       fhir:condition ( [ fhir:v "inv-au-core-pat-02" ] ) ;
+       fhir:condition ( [ fhir:v "au-core-pat-02" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
@@ -1236,9 +1451,9 @@
        ] [
          fhir:key [ fhir:v "au-core-pat-04" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "At least text, family name, or given name shall be present" ] ;
-         fhir:expression [ fhir:v "text.exists() or family.exists() or given.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:text) or exists(f:family) or exists(f:given)" ] ;
+         fhir:human [ fhir:v "At least text, family name, or given name shall be present, or if neither is available, the Data Absent Reason extension shall be present" ] ;
+         fhir:expression [ fhir:v "(text.exists() or family.exists() or given.exists()) xor extension('http://hl7.org/fhir/StructureDefinition/data-absent-reason').exists()" ] ;
+         fhir:xpath [ fhir:v "(exists(f:text) or exists(f:family) or exists(f:given)) and not (exists(f:text) and exists(f:family) and exists(f:given)) or exists(f:extension[@url='http://hl7.org/fhir/StructureDefinition/data-absent-reason'])" ] ;
          fhir:source [
            fhir:v "http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient>
@@ -1337,6 +1552,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.name.use" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.name.use" ] ;
        fhir:short [ fhir:v "usual | official | temp | nickname | anonymous | old | maiden" ] ;
        fhir:definition [ fhir:v "Identifies the purpose for this name." ] ;
@@ -1391,6 +1631,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.name.text" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.name.text" ] ;
        fhir:short [ fhir:v "Text representation of the full name" ] ;
        fhir:definition [ fhir:v "Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts." ] ;
@@ -1417,6 +1682,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1428,6 +1694,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.name.family" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.name.family" ] ;
        fhir:short [ fhir:v "Family name (often called 'Surname')" ] ;
        fhir:definition [ fhir:v "The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father." ] ;
@@ -1454,6 +1745,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1468,6 +1760,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.name.given" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.name.given" ] ;
        fhir:short [ fhir:v "Given names (not always 'first'). Includes middle names" ] ;
        fhir:definition [ fhir:v "Given name." ] ;
@@ -1495,6 +1812,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ] ) ;
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
        fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
        fhir:mapping ( [
@@ -1623,6 +1941,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.telecom" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.telecom" ] ;
        fhir:short [ fhir:v "A contact detail for the individual" ] ;
        fhir:definition [ fhir:v "A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted." ] ;
@@ -1664,6 +2007,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.gender" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.gender" ] ;
        fhir:short [ fhir:v "male | female | other | unknown" ] ;
        fhir:definition [ fhir:v "Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes." ] ;
@@ -1717,6 +2085,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.birthDate" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.birthDate" ] ;
        fhir:short [ fhir:v "Date of birth extended for time and accuracy indicator" ] ;
        fhir:definition [ fhir:v "The date of birth for the individual." ] ;
@@ -1831,9 +2224,9 @@
        fhir:id [ fhir:v "Patient.birthDate.extension:accuracyIndicator" ] ;
        fhir:path [ fhir:v "Patient.birthDate.extension" ] ;
        fhir:sliceName [ fhir:v "accuracyIndicator" ] ;
-       fhir:short [ fhir:v "Date accuracy indicator" ] ;
+       fhir:short [ fhir:v "Birth date accuracy indicator" ] ;
        fhir:definition [ fhir:v "General date accuracy indicator coding." ] ;
-       fhir:comment [ fhir:v "In some circumstances, systems may capture date or dateTime data that has unknown or estimated parts. This coding indicates the accuracy of the day, month and year parts. This concept is equivalent to Australian Institute of Health and Welfare data element 294418 [Date—accuracy indicator](https://meteor.aihw.gov.au/content/index.phtml/itemId/294418)." ] ;
+       fhir:comment [ fhir:v "In some circumstances, systems may only have date or datetime data that has unknown or estimated parts.  This coding establishes the accuracy of the day, month and year parts." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1870,14 +2263,13 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.birthDate.extension:birthTime" ] ;
        fhir:path [ fhir:v "Patient.birthDate.extension" ] ;
        fhir:sliceName [ fhir:v "birthTime" ] ;
-       fhir:short [ fhir:v "Time of day of birth" ] ;
-       fhir:definition [ fhir:v "The time of day that the Patient was born. This includes the date to ensure that the timezone information can be communicated effectively." ] ;
+       fhir:short [ fhir:v "Birth time" ] ;
+       fhir:definition [ fhir:v "The time of day that the patient was born. This includes the date to ensure that the timezone information can be communicated effectively." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1892,13 +2284,12 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/patient-birthTime>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] [ fhir:v "inv-pat-0" ] ) ;
+       fhir:condition ( [ fhir:v "inv-pat-0" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1908,13 +2299,11 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.birthDate.value" ] ;
@@ -2215,6 +2604,31 @@
        fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:id [ fhir:v "Patient.address" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.address" ] ;
        fhir:short [ fhir:v "An address for the individual" ] ;
        fhir:definition [ fhir:v "An Australian address expressed using postal conventions (as opposed to GPS or other location definition formats)." ] ;
@@ -2894,6 +3308,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.communication" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.communication" ] ;
        fhir:short [ fhir:v "A language which may be used to communicate with the patient about his or her health" ] ;
        fhir:definition [ fhir:v "A language which may be used to communicate with the patient about his or her health." ] ;
@@ -3048,6 +3487,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.communication.language" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.communication.language" ] ;
        fhir:short [ fhir:v "The language which can be used to communicate with the patient about his or her health" ] ;
        fhir:definition [ fhir:v "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English." ] ;
@@ -3096,6 +3560,31 @@
        ] )
      ] [
        fhir:id [ fhir:v "Patient.communication.preferred" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:populate-if-known" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL:no-error" ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             fhir:v "http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"^^xsd:anyURI ;
+             fhir:link <http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester>
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Patient.communication.preferred" ] ;
        fhir:short [ fhir:v "Language preference indicator" ] ;
        fhir:definition [ fhir:v "Indicates whether or not the patient prefers this language (over other languages he masters up a certain level)." ] ;

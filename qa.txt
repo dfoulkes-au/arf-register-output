@@ -1,25 +1,25 @@
 ARFRegisterIG : Validation Results
 =========================================
 
-err = 4, warn = 15, info = 2
-IG Publisher Version: 1.6.9 Out of date - current version is 1.6.10
-Generated Thu May 30 15:45:00 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.1.3 (canonical = http://fhir-arf-register.nardhc.org)
+err = 7, warn = 23, info = 2
+IG Publisher Version: 1.6.31
+Generated Thu Oct 24 17:11:57 AEST 2024. FHIR version 4.0.1 for fhir.arfregister#0.2.0 (canonical = http://fhir-arf-register.nardhc.org)
  Build Errors : 0 / 4 / 0
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy : 1 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\CarePlan-MikePondCarePlan : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Condition-MikePondCondition : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\ImplementationGuide-fhir.arfregister : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationRequest-BicillinMedicationRequest : 2 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationStatement-BicillinMedicationStatement : 2 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationRequest-BicillinMedicationRequest : 3 / 0 / 2
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\MedicationStatement-BicillinMedicationStatement : 3 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Organization-VeryRemoteClinic : 0 / 1 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-MikePondPatient : 0 / 1 / 2
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Patient-MikePondPatient : 0 / 1 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\Practitioner-DoctorPayne : 0 / 1 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\PractitionerRole-DoctorPayneRole1 : 0 / 1 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFAllergy : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCarePlan : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 0 / 1
- C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 0 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFCondition : 0 / 4 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationRequest : 0 / 2 / 1
+ C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFMedicationStatement : 0 / 2 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFOrganisation : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPatient : 0 / 0 / 1
  C:\Dev\fsh\arf-register-fsh\fsh-generated\resources\StructureDefinition-ARFPractitioner : 0 / 0 / 1
@@ -34,19 +34,22 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\AllergyIntolerance-MikePondMedicationAllergy.json ==
+ERROR: AllergyIntolerance/MikePondMedicationAllergy: AllergyIntolerance.code: Error from http://tx.fhir.org/r4: The filter "constraint = < 420134006 |Propensity to adverse reaction| OR << 716186003|No known allergy|" from the value set https://healthterminologies.gov.au/fhir/ValueSet/indicator-hypersensitivity-intolerance-to-substance-2 was not understood in the context of http://snomed.info/sct
 == fsh-generated\resources\CarePlan-MikePondCarePlan.json ==
 == fsh-generated\resources\Condition-MikePondCondition.json ==
 == fsh-generated\resources\ImplementationGuide-fhir.arfregister.json ==
 == fsh-generated\resources\MedicationRequest-BicillinMedicationRequest.json ==
-ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
-ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.1.3), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.2.0), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+ERROR: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept): Error from http://tx.fhir.org/r4: The Snomed Concept 929360061000036106 was not known
+INFORMATION: MedicationRequest/BicillinMedicationRequest: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://fhir-arf-register.nardhc.org/StructureDefinition/ARFMedicationRequest|0.2.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated\resources\MedicationStatement-BicillinMedicationStatement.json ==
-ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240201'
-ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.1.3), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept).coding[0].code: Unknown code '1276211000168102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20240801'
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'Medication Codes for Acute Rheumatic Fever' (http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs|0.2.0), and a coding from this value set is required) (codes = http://snomed.info/sct#1276211000168102)
+ERROR: MedicationStatement/BicillinMedicationStatement: MedicationStatement.medication.ofType(CodeableConcept): Error from http://tx.fhir.org/r4: The Snomed Concept 929360061000036106 was not known
 == fsh-generated\resources\Organization-VeryRemoteClinic.json ==
 WARNING: Organization/VeryRemoteClinic: Organization.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpio, http://hl7.org/fhir/StructureDefinition/Identifier
 == fsh-generated\resources\Patient-MikePondPatient.json ==
-INFORMATION: Patient/MikePondPatient: Patient.extension[0].value.ofType(Coding): A definition for CodeSystem 'https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1' could not be found, so the code cannot be validated
 WARNING: Patient/MikePondPatient: Patient.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-ihi, http://hl7.org/fhir/StructureDefinition/Identifier
 == fsh-generated\resources\Practitioner-DoctorPayne.json ==
 WARNING: Practitioner/DoctorPayne: Practitioner.identifier[0]: Found multiple matching profiles among 2 choices: http://hl7.org.au/fhir/StructureDefinition/au-hpii, http://hl7.org/fhir/StructureDefinition/Identifier
@@ -55,8 +58,16 @@ WARNING: PractitionerRole/DoctorPayneRole1: PractitionerRole.identifier[0]: Foun
 == fsh-generated\resources\StructureDefinition-ARFAllergy.json ==
 == fsh-generated\resources\StructureDefinition-ARFCarePlan.json ==
 == fsh-generated\resources\StructureDefinition-ARFCondition.json ==
+WARNING: StructureDefinition/ARFCondition: StructureDefinition.differential.element[2].binding: The definition for the element 'Condition.severity' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ARFCondition: StructureDefinition.differential.element[3].binding: The definition for the element 'Condition.code' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ARFCondition: StructureDefinition.snapshot.element[13].binding: The definition for the element 'Condition.severity' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ARFCondition: StructureDefinition.snapshot.element[14].binding: The definition for the element 'Condition.code' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs' which is experimental, but this structure is not labeled as experimental
 == fsh-generated\resources\StructureDefinition-ARFMedicationRequest.json ==
+WARNING: StructureDefinition/ARFMedicationRequest: StructureDefinition.differential.element[3].binding: The definition for the element 'MedicationRequest.medication[x]' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ARFMedicationRequest: StructureDefinition.snapshot.element[19].binding: The definition for the element 'MedicationRequest.medication[x]' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs' which is experimental, but this structure is not labeled as experimental
 == fsh-generated\resources\StructureDefinition-ARFMedicationStatement.json ==
+WARNING: StructureDefinition/ARFMedicationStatement: StructureDefinition.differential.element[4].binding: The definition for the element 'MedicationStatement.medication[x]' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ARFMedicationStatement: StructureDefinition.snapshot.element[17].binding: The definition for the element 'MedicationStatement.medication[x]' binds to the value set 'http://fhir-arf-register.nardhc.org/ValueSet/arf-medication-code-vs' which is experimental, but this structure is not labeled as experimental
 == fsh-generated\resources\StructureDefinition-ARFOrganisation.json ==
 == fsh-generated\resources\StructureDefinition-ARFPatient.json ==
 == fsh-generated\resources\StructureDefinition-ARFPractitioner.json ==

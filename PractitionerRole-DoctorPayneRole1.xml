@@ -6,7 +6,7 @@
     <profile value="http://fhir-arf-register.nardhc.org/StructureDefinition/ARFPractitionerRole"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PractitionerRole </b><a name="DoctorPayneRole1"> </a><a name="hcDoctorPayneRole1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourcePractitionerRole &quot;DoctorPayneRole1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFPractitionerRole.html">ARFPractitionerRole</a></p></div><p><b>identifier</b>: Medicare Provider Number/2426621B (use: official)</p><p><b>practitioner</b>: <a href="Practitioner-DoctorPayne.html">Practitioner/DoctorPayne</a> &quot; PAYNE&quot;</p><p><b>organization</b>: <a href="Organization-VeryRemoteClinic.html">Organization/VeryRemoteClinic</a> &quot;Very Remote Health Clinic&quot;</p><p><b>telecom</b>: <a href="tel:+61787654321">+61 7 87654321</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PractitionerRole DoctorPayneRole1</b></p><a name="DoctorPayneRole1"> </a><a name="hcDoctorPayneRole1"> </a><a name="DoctorPayneRole1-en-AU"> </a><p><b>identifier</b>: Medicare Provider Number/2426621B (use: official, )</p><p><b>practitioner</b>: <a href="Practitioner-DoctorPayne.html">Practitioner Jane Payne </a></p><p><b>organization</b>: <a href="Organization-VeryRemoteClinic.html">Organization Very Remote Health Clinic</a></p><p><b>telecom</b>: <a href="tel:+61787654321">+61 7 87654321</a></p></div>
   </text>
   <identifier>
     <use value="official"/>

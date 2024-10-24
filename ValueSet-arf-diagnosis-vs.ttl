@@ -10,15 +10,15 @@
   fhir:id [ fhir:v "arf-diagnosis-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/195528001\">195528001</a></td><td>Acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/38933006\">38933006</a></td><td>Recurrent rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/302471000210100\">302471000210100</a></td><td>Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/299171000210109\">299171000210109</a></td><td>History of acute rheumatic fever without heart disease</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet arf-diagnosis-vs</b></p><a name=\"arf-diagnosis-vs\"> </a><a name=\"hcarf-diagnosis-vs\"> </a><a name=\"arf-diagnosis-vs-en-AU\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/195528001\">195528001</a></td><td>Acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/38933006\">38933006</a></td><td>Recurrent rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/302471000210100\">302471000210100</a></td><td>Rheumatic heart disease with absence of signs and symptoms of acute rheumatic fever</td></tr><tr><td><a href=\"http://snomed.info/id/299171000210109\">299171000210109</a></td><td>History of acute rheumatic fever without heart disease</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir-arf-register.nardhc.org/ValueSet/arf-diagnosis-vs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.3"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "ARFDiagnosisCodeVS"] ; # 
   fhir:title [ fhir:v "Acute Rheumatic Fever and Rheumatic Heart Disease Conditions"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-05-30T15:43:42+10:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-24T17:10:08+10:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "D Foulkes - Northern Australia Regional Digital Health Collaborative"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "D Foulkes - Northern Australia Regional Digital Health Collaborative" ] ;

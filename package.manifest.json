@@ -1,7 +1,7 @@
 {
-  "version" : "0.1.3",
+  "version" : "0.2.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240530154245",
+  "date" : "20241024170933",
   "name" : "fhir.arfregister",
   "jurisdiction" : "urn:iso:std:iso:3166#AUS"
 }

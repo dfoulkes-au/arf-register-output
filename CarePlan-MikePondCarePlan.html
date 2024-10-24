@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Rheumatic fever care plan for patient Mike Pond - Implementation Guide for ARF/RHD Register - AU v0.1.3</title>
+    <title>Rheumatic fever care plan for patient Mike Pond - Implementation Guide for ARF/RHD Register - AU v0.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2.20"}
     h3,h4,h5,h6{--heading-prefix:"2.20"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
@@ -49,7 +50,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Implementation Guide for ARF/RHD Register - AU</span>
             <br/>
-            <span style="display:inline-block;">0.1.3 - ci-build
+            <span style="display:inline-block;">0.2.0 - ci-build
 
 
 
@@ -111,7 +112,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.1.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Implementation Guide for ARF/RHD Register - AU - Local Development build (v0.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://fhir-arf-register.nardhc.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -168,7 +169,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CarePlan </b><a name="MikePondCarePlan"> </a><a name="hcMikePondCarePlan"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceCarePlan &quot;MikePondCarePlan&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ARFCarePlan.html">ARFCarePlan</a></p></div><p><b>identifier</b>: Local Registry ID/987654321</p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>title</b>: Rheumatic fever care plan for patient Mike Pond</p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Patient/MikePondPatient</a> &quot; POND&quot;</p><p><b>period</b>: 2023-10-01 --&gt; 2024-10-01</p><p><b>created</b>: 2023-10-01</p><p><b>author</b>: <a href="PractitionerRole-DoctorPayneRole1.html">PractitionerRole/DoctorPayneRole1</a></p><h3>Activities</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest/BicillinMedicationRequest</a></td></tr></table></div>
+  <div><p class="res-header-id"><b>Generated Narrative: CarePlan MikePondCarePlan</b></p><a name="MikePondCarePlan"> </a><a name="hcMikePondCarePlan"> </a><a name="MikePondCarePlan-und"> </a><p><b>identifier</b>: Local Registry ID/987654321</p><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>title</b>: Rheumatic fever care plan for patient Mike Pond</p><p><b>subject</b>: <a href="Patient-MikePondPatient.html">Mike Pond  Male, DoB: 1960-01-25 ( National unique individual identifier (use: official, ))</a></p><p><b>period</b>: 2023-10-01 --&gt; 2024-10-01</p><p><b>created</b>: 2023-10-01</p><p><b>author</b>: <a href="PractitionerRole-DoctorPayneRole1.html">PractitionerRole: identifier = Medicare Provider Number (use: official, ); telecom = ph: +61 7 87654321</a></p><h3>Activities</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="MedicationRequest-BicillinMedicationRequest.html">MedicationRequest: identifier = Local Prescription Number; status = active; intent = plan; medication[x] = Bicillin L-A 1.2 million units (1016.6 mg)/2.3 mL injection, 2.3 mL syringe; authoredOn = 2023-10-01; reasonCode = </a></td></tr></table></div>
 
   
 
@@ -193,7 +194,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.1.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 30, 2024 15:43+1000">2024-05-30</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://nardhc.org">D Foulkes - Northern Australia Regional Digital Health Collaborative</a>.  Package fhir.arfregister#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 24, 2024 17:10+1000">2024-10-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -210,7 +211,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -221,7 +222,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>
