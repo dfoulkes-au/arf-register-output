@@ -14,7 +14,7 @@ The FSH source code used to create this deployment project can be found [here](h
 
 To deploy this package simply clone the repo and copy the contents to a web server folder.
 
-If you like this, don't forget to give the project a star! Thanks again!
+If you like this, don't forget to give the project a star! Thanks!
 
 ## Background
 Acute rheumatic fever (ARF) results from the body’s autoimmune response following an infection with Group A Streptococcus bacterium (Streptococcus pyogenes). Rheumatic heart disease (RHD) refers to the long-term cardiac damage caused by either a single severe episode or multiple recurrent episodes of ARF.  The development of ARF occurs approximately two weeks after S. pyogenes infection . The clinical manifestations and symptoms of ARF can be severe and are described in the Revised Jones Criteria[^1].
