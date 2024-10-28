@@ -22,8 +22,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://fhir-arf-register.nardhc.org/ValueSet/arf-severity-vs",
@@ -49,8 +49,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
@@ -306,15 +306,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
       "StructureDefinition-ARFCondition.html" : "ARFCondition",
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
       "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
       "StructureDefinition-ARFPractitionerRole.html" : "ARFPractitionerRole",
-      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan",
+      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation",
       "StructureDefinition-ARFAllergy.html" : "ARFAllergy",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
-      "StructureDefinition-ARFOrganisation.html" : "ARFOrganisation"
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -359,9 +359,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
       "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFCarePlan.html" : "ARFCarePlan"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
@@ -481,8 +481,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -597,8 +597,8 @@
       "sources" : ["2.16.840.1.113883.2.3.4.2.4.7"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://terminology.hl7.org.au/ValueSet/pbs-item",
@@ -612,8 +612,8 @@
       "sources" : ["2.16.840.1.113883.2.3.4.2.4.8"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "http://terminology.hl7.org.au/ValueSet/v2-0360-extended",
@@ -660,8 +660,8 @@
       "sources" : ["2.16.840.1.113883.1.11.19885"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/adverse-reaction-agent-1",
@@ -703,8 +703,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10003"],
       "uses" : {
       },
-      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest",
-      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement"
+      "StructureDefinition-ARFMedicationStatement.html" : "ARFMedicationStatement",
+      "StructureDefinition-ARFMedicationRequest.html" : "ARFMedicationRequest"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1",
@@ -761,8 +761,8 @@
       "sources" : ["1.2.36.1.2001.1004.201.10069"],
       "uses" : {
       },
-      "StructureDefinition-ARFPatient.html" : "ARFPatient",
-      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner"
+      "StructureDefinition-ARFPractitioner.html" : "ARFPractitioner",
+      "StructureDefinition-ARFPatient.html" : "ARFPatient"
     },
     {
       "url" : "https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3",
