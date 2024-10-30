@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <div align="center">
-  <a href="https://github.com/dfoulkesjcu/fhir-arf-register"><img src="logo.ico" alt="ARF Logo" width="80" height="80"></a>
+  <a href="https://github.com/dfoulkes-au/fhir-arf-register"><img src="logo.ico" alt="ARF Logo" width="80" height="80"></a>
   <h2>Acute Rheumatic Fever FHIR IG - Deployment Package</h2>
 </div>
 
@@ -34,7 +34,7 @@ An  effective national or regional ARF/RHD register that tracks a patients ongoi
 
 In order to deploy the IG,  first Clone this repository by executing:
 ```sh
-git clone https://github.com/dfoulkesjcu/arf-register-fsh.git
+git clone https://github.com/dfoulkes-au/arf-register-fsh.git
 ```
 To deploy the package on the internet, you will need to have access to a web server and have permissions to copy files to the a folder that is served by the web server.
 In this case,  simply copy all files and folders from the folder you have cloned to a specified folder on your web server.  You should then be able to access the IG in your browser.
@@ -94,7 +94,7 @@ This workflow may take place at any time,  and will return the current informati
 
 Issues and or pull requests for this deployment project will not be monitored.  
 
-The content of this project is derived by an automated compilation process from the [source code project](https://github.com/github/dfoulkesjcu/arf-register-fsh). 
+The content of this project is derived by an automated compilation process from the [source code project](https://github.com/github/dfoulkes-au/arf-register-fsh). 
 
 So if you have contributions or suggestions please go to the source project, and follow the "How to Contribute" instructions there.
 
@@ -128,4 +128,4 @@ Distributed under the MIT License. See [LICENSE.txt][license-url] for more infor
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg
 [fsh-badge]: https://fshschool.org/favicon.ico
 [fsh-url]: https://fshschool.org/
-[license-url]: https://github.com/dfoulkesjcu/arf-register-fsh/blob/main/LICENSE.txt
+[license-url]: https://github.com/dfoulkes-au/arf-register-fsh/blob/main/LICENSE.txt
